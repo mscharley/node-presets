@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.2.1",
+      "tag": "@mscharley/eslint-config_v1.2.1",
+      "date": "Wed, 22 Apr 2020 10:21:31 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Better handling of issues caused by JavaScript's ASI engine"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.0",
       "tag": "@mscharley/eslint-config_v1.2.0",
       "date": "Wed, 22 Apr 2020 10:11:40 GMT",
