@@ -104,7 +104,14 @@
     //    */
     //   "allowWarningsInSuccessfulBuild": false
     // },
-    // 
+
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "Run tests for all packages.",
+      "enableParallelism": false
+    }
+
     // {
     //   /**
     //    * (Required) Determines the type of custom command.
