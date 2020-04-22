@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Fine tuned the eslint side of the settings",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt@scharley.me"
+}
