@@ -24,7 +24,30 @@ jobs:
             - run:
                 name: rush test
                 command: node common/scripts/install-run-rush.js test
+  deploy:
+    executor:
+      name: node/default
+      tag: "12.16"
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "e2:f9:0e:ba:2c:c0:7e:ca:5d:18:ef:f2:1c:b5:a4:20"
+      - run:
+          name: rush install
+          command: node common/scripts/install-run-rush.js install
+      - run:
+          name: rush version --bump
+          command: node common/scripts/install-run-rush.js version --bump -b master
+      - run:
+          name: rush publish
+          command: node common/scripts/install-run-rush.js publish --publish --include-all -b master --npm-auth-token "$NPM_TOKEN"
+
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  build-and-test:
+    jobs:
+      - build-and-test
+      - deploy:
+          context: semantic-release
+          filters:
+            branches: { only: master }
