@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# $1 the file with the commit message
+
+echo --------------------------------------------
+echo '> Starting Git hook: commit-msg'
+
+COMMAND="$PWD/internal/project/node_modules/.bin/commitlint"
+if [ -f $COMMAND ]; then
+  echo "> Invoking $COMMAND"
+  pushd internal/project > /dev/null
+  $COMMAND -e "$1"
+  popd > /dev/null
+else
+  echo "Command not installed: $COMMAND"
+  exit 1
+fi
+
+echo '> Finished Git hook: commit-msg'
+echo --------------------------------------------
