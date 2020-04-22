@@ -400,6 +400,11 @@
       "packageName": "@mscharley/eslint-config",
       "projectFolder": "presets/eslint",
       "versionPolicyName": "presets"
+    },
+    {
+      "packageName": "@mscharley/node-presets-project",
+      "projectFolder": "internal/project",
+      "shouldPublish": false
     }
   ]
 }
