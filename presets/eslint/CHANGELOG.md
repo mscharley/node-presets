@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 22 Apr 2020 10:46:45 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Apr 2020 12:37:11 GMT and should not be manually modified.
+
+## 1.2.3
+Wed, 22 Apr 2020 12:37:11 GMT
+
+### Patches
+
+- Downgraded the eslint check for magic numbers to a warning
 
 ## 1.2.2
 Wed, 22 Apr 2020 10:46:45 GMT
