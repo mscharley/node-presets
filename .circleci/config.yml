@@ -34,6 +34,11 @@ jobs:
           fingerprints:
             - "e2:f9:0e:ba:2c:c0:7e:ca:5d:18:ef:f2:1c:b5:a4:20"
       - run:
+          name: Configure git
+          command: |-
+            git config user.email "rush@scharley.me"
+            git config user.name "Rush Releases"
+      - run:
           name: rush install
           command: node common/scripts/install-run-rush.js install
       - run:
