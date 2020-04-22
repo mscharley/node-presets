@@ -46,7 +46,7 @@ jobs:
           command: node common/scripts/install-run-rush.js version --bump -b master
       - run:
           name: rush publish
-          command: node common/scripts/install-run-rush.js publish --publish --include-all -b master --npm-auth-token "$NPM_TOKEN"
+          command: node common/scripts/install-run-rush.js publish --publish --include-all -b master --npm-auth-token "$NPM_TOKEN" --set-access-level public
 
 workflows:
   build-and-test:
