@@ -9,6 +9,7 @@ jobs:
     steps:
       - checkout
       - node/with-cache:
+          cache-key: common/config/rush/shrinkwrap.yaml
           dir: ~/project/common/temp
           steps:
             - run: node common/scripts/install-run-rush.js change -v
