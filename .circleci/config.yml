@@ -54,5 +54,6 @@ workflows:
       - build-and-test
       - deploy:
           context: semantic-release
+          requires: ["build-and-test"]
           filters:
             branches: { only: master }
