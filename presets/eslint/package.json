@@ -1,0 +1,23 @@
+{
+  "name": "@mscharley/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint presets that I use a lot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscharley/node-presets.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-presets"
+  ],
+  "author": "Matthew Scharley <matt@scharley.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mscharley/node-presets/issues"
+  },
+  "homepage": "https://github.com/mscharley/node-presets#readme"
+}
