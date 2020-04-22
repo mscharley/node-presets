@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.2.2",
+      "tag": "@mscharley/eslint-config_v1.2.2",
+      "date": "Wed, 22 Apr 2020 10:46:45 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix an overbearing option from no-magic-numbers that forced *all* variables that are numbers to be defined as consts"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.1",
       "tag": "@mscharley/eslint-config_v1.2.1",
       "date": "Wed, 22 Apr 2020 10:21:31 GMT",

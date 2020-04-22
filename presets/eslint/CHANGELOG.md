@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 22 Apr 2020 10:21:31 GMT and should not be manually modified.
+This log was last generated on Wed, 22 Apr 2020 10:46:45 GMT and should not be manually modified.
+
+## 1.2.2
+Wed, 22 Apr 2020 10:46:45 GMT
+
+### Patches
+
+- Fix an overbearing option from no-magic-numbers that forced *all* variables that are numbers to be defined as consts
 
 ## 1.2.1
 Wed, 22 Apr 2020 10:21:31 GMT
