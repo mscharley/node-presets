@@ -230,7 +230,7 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    "versionBumpCommitMessage": "chore: applying version updates"
+    "versionBumpCommitMessage": "chore: applying version updates [skip ci]"
   },
 
   "repository": {
