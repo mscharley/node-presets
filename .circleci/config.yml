@@ -12,10 +12,18 @@ jobs:
           cache-key: common/config/rush/shrinkwrap.yaml
           dir: ~/project/common/temp
           steps:
-            - run: node common/scripts/install-run-rush.js change -v
-            - run: node common/scripts/install-run-rush.js install
-            - run: node common/scripts/install-run-rush.js rebuild --verbose
-            - run: node common/scripts/install-run-rush.js test
+            - run:
+                name: rush change -v
+                command: node common/scripts/install-run-rush.js change -v
+            - run:
+                name: rush install
+                command: node common/scripts/install-run-rush.js install
+            - run:
+                name: rush rebuild --verbose
+                command: node common/scripts/install-run-rush.js rebuild --verbose
+            - run:
+                name: rush test
+                command: node common/scripts/install-run-rush.js test
 workflows:
     build-and-test:
       jobs:
