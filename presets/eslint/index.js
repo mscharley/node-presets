@@ -51,7 +51,7 @@ module.exports = {
     "no-lone-blocks": "warn",
     "no-lonely-if": "error",
     "no-loop-func": "error" ,
-    "no-magic-numbers": [ "error", { enforceConst: true, ignoreArrayIndexes: true } ],
+    "no-magic-numbers": [ "error", { enforceConst: false, ignoreArrayIndexes: true } ],
     "no-multi-spaces": [ "error", { exceptions: { VariableDeclarator: true } } ],
     "no-multi-str": "error",
     "no-new": "error",
