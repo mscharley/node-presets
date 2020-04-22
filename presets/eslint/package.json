@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "",
-    "test": "true"
+    "test": "eslint -c index.js --env node *.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/mscharley/node-presets/issues"
   },
-  "homepage": "https://github.com/mscharley/node-presets#readme"
+  "homepage": "https://github.com/mscharley/node-presets#readme",
+  "peerDependencies": {
+    "eslint": ">= 6.0.0",
+    "@typescript-eslint/parser": ">= 2.29.0",
+    "@typescript-eslint/eslint-plugin": ">= 2.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "typescript": "^3.8.0"
+  }
 }
