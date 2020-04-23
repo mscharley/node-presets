@@ -29,6 +29,7 @@
     "@babel/preset-env": "~7.9.5",
     "@babel/preset-typescript": "~7.9.0",
     "@mscharley/eslint-config": "~1.2.3",
+    "@types/jest": "~25.2.1",
     "@types/node": "~13.13.2",
     "@typescript-eslint/parser": "~2.29.0",
     "@typescript-eslint/eslint-plugin": "~2.29.0",
@@ -38,7 +39,6 @@
     "eslint": "~6.8.0",
     "jest": "~25.4.0",
     "typescript": "~3.8.0",
-    "utf-8-validate": "~5.0.2",
-    "@types/jest": "~25.2.1"
+    "utf-8-validate": "~5.0.2"
   }
 }
