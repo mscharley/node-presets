@@ -1,0 +1,44 @@
+{
+  "name": "@mscharley/bootstrap-node",
+  "version": "1.0.0",
+  "description": "Bootstrap an opinionated node project quickly.",
+  "bin": {
+    "bootstrap": "bin/bootstrap.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run test:lint && npm run test:jest",
+    "test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test:jest": "jest 2>&1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscharley/node-presets.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Matthew Scharley <matt@scharley.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mscharley/node-presets/issues"
+  },
+  "homepage": "https://github.com/mscharley/node-presets#readme",
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@babel/preset-env": "~7.9.5",
+    "@babel/preset-typescript": "~7.9.0",
+    "@mscharley/eslint-config": "~1.2.3",
+    "@types/node": "~13.13.2",
+    "@typescript-eslint/parser": "~2.29.0",
+    "@typescript-eslint/eslint-plugin": "~2.29.0",
+    "babel-jest": "~25.4.0",
+    "bufferutil": "~4.0.1",
+    "canvas": "~2.6.1",
+    "eslint": "~6.8.0",
+    "jest": "~25.4.0",
+    "typescript": "~3.8.0",
+    "utf-8-validate": "~5.0.2",
+    "@types/jest": "~25.2.1"
+  }
+}
