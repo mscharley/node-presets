@@ -5015,7 +5015,7 @@ packages:
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
-      resolve: 1.16.1
+      resolve: 1.17.0
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: false
@@ -5747,12 +5747,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
-  /resolve/1.16.1:
-    dependencies:
-      path-parse: 1.0.6
-    dev: false
-    resolution:
-      integrity: sha512-rmAglCSqWWMrrBv/XM6sW0NuRFiKViw/W4d9EbC4pt+49H8JwHy+mcGmALTEg504AUDcLTvb1T2q3E9AnmY+ig==
   /resolve/1.17.0:
     dependencies:
       path-parse: 1.0.6
@@ -6824,7 +6818,7 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config'
     resolution:
-      integrity: sha512-/vGazHHwRGc8RR3+0WObP/+fxbWfhnzKVkp7Xxp7jZaDyem4+df+S4YwolxgGBbYONXa5mQU+39+HRWQdK+uUw==
+      integrity: sha512-+/MwmFVz8LE9iJxPEXwdtZMRsFkYIB6ztJTQf3DnfPKkMZNPOiVb+g0JSWZAIIS5iyW6Psn1uOQOv8WSifTR9g==
       tarball: 'file:projects/eslint-config.tgz'
     version: 0.0.0
   'file:projects/node-presets-project.tgz':
