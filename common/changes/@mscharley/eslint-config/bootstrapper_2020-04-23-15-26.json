@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Add important documentation files to the package",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt@scharley.me"
+}
