@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.2.4",
+      "tag": "@mscharley/eslint-config_v1.2.4",
+      "date": "Thu, 23 Apr 2020 15:40:59 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Add important documentation files to the package"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.3",
       "tag": "@mscharley/eslint-config_v1.2.3",
       "date": "Wed, 22 Apr 2020 12:37:11 GMT",

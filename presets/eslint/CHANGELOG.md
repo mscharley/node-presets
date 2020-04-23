@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 22 Apr 2020 12:37:11 GMT and should not be manually modified.
+This log was last generated on Thu, 23 Apr 2020 15:40:59 GMT and should not be manually modified.
+
+## 1.2.4
+Thu, 23 Apr 2020 15:40:59 GMT
+
+### Patches
+
+- Add important documentation files to the package
 
 ## 1.2.3
 Wed, 22 Apr 2020 12:37:11 GMT
