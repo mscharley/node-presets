@@ -3,7 +3,11 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
+    'deprecation',
   ],
+  parserOptions: {
+    "project": "./tsconfig.json",
+  },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -26,6 +30,7 @@ module.exports = {
     'consistent-return': 'error',
     'curly': 'error',
     'default-case': 'error',
+    'deprecation/deprecation': 'warn',
     'dot-location': [ 'error', 'property' ],
     'dot-notation': 'warn',
     'eol-last': 'error',
