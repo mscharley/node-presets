@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.2.5",
+      "tag": "@mscharley/eslint-config_v1.2.5",
+      "date": "Wed, 16 Dec 2020 04:09:07 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix(eslint): implement quotes rule"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.4",
       "tag": "@mscharley/eslint-config_v1.2.4",
       "date": "Thu, 23 Apr 2020 15:40:59 GMT",
