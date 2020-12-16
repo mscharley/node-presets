@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - node/with-cache:
-          cache-key: common/config/rush/shrinkwrap.yaml
+          cache-key: common/config/rush/pnpm-lock.yaml
           dir: ~/project/common/temp
           steps:
             - run:
