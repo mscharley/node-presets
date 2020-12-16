@@ -3,6 +3,6 @@ module.exports = {
     node: true,
   },
   extends: [
-    "@mscharley",
+    '@mscharley',
   ],
 };
