@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run test:lint && npm run test:jest",
-    "test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test:lint": "eslint --ext .js,.jsx,.ts,.tsx src __tests__",
     "test:jest": "jest 2>&1"
   },
   "repository": {
