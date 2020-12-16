@@ -2509,6 +2509,19 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
+  /eslint-plugin-deprecation/1.2.0_eslint@6.8.0+typescript@3.8.3:
+    dependencies:
+      '@typescript-eslint/experimental-utils': 2.29.0_eslint@6.8.0+typescript@3.8.3
+      eslint: 6.8.0
+      tslib: 1.14.1
+      tsutils: 3.17.1_typescript@3.8.3
+      typescript: 3.8.3
+    dev: false
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0
+      typescript: ^3.7.5 || ^4.0.0
+    resolution:
+      integrity: sha512-SrZqomFYofRbxJ9dlAcu526/tiZoWoZgHdZWKHjrRT/uLfTtTTjdVf0gdy0AZxK8nH5ri0fukgwS28llUueitA==
   /eslint-scope/5.1.1:
     dependencies:
       esrecurse: 4.3.0
@@ -6413,11 +6426,12 @@ packages:
       '@typescript-eslint/eslint-plugin': 2.29.0_68aa0cf1893d5414e11aa7fe89753d25
       '@typescript-eslint/parser': 2.29.0_eslint@6.8.0+typescript@3.8.3
       eslint: 6.8.0
+      eslint-plugin-deprecation: 1.2.0_eslint@6.8.0+typescript@3.8.3
       typescript: 3.8.3
     dev: false
     name: '@rush-temp/eslint-config'
     resolution:
-      integrity: sha512-+/MwmFVz8LE9iJxPEXwdtZMRsFkYIB6ztJTQf3DnfPKkMZNPOiVb+g0JSWZAIIS5iyW6Psn1uOQOv8WSifTR9g==
+      integrity: sha512-TPd+wEOJv5RbJNpIrd9Ojr/uODEt1efSKNq/a3xD7rUsyypSlD1dyrPR05B/3NbYpiR99OrGVwlvurN2H5dfKQ==
       tarball: 'file:projects/eslint-config.tgz'
     version: 0.0.0
   'file:projects/node-presets-project.tgz':
