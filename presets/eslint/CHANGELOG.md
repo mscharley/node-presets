@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 16 Dec 2020 04:09:07 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Dec 2020 07:15:14 GMT and should not be manually modified.
+
+## 1.2.6
+Wed, 16 Dec 2020 07:15:14 GMT
+
+### Patches
+
+- fix: include deprecation warnings
 
 ## 1.2.5
 Wed, 16 Dec 2020 04:09:07 GMT

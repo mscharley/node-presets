@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.2.6",
+      "tag": "@mscharley/eslint-config_v1.2.6",
+      "date": "Wed, 16 Dec 2020 07:15:14 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: include deprecation warnings"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.5",
       "tag": "@mscharley/eslint-config_v1.2.5",
       "date": "Wed, 16 Dec 2020 04:09:07 GMT",
