@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 16 Dec 2020 07:15:14 GMT and should not be manually modified.
+This log was last generated on Mon, 18 Jan 2021 05:11:39 GMT and should not be manually modified.
+
+## 1.2.7
+Mon, 18 Jan 2021 05:11:39 GMT
+
+### Patches
+
+- allow sorted imports to be split into blocks
 
 ## 1.2.6
 Wed, 16 Dec 2020 07:15:14 GMT
