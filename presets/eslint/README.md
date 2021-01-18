@@ -15,7 +15,7 @@ This is a preset for eslint for use with TypeScript projects.
 ## Installation
 
 ```console
-$ npm install --save-dev @mscharley/eslint-config eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+$ npm install --save-dev @mscharley/eslint-config eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-deprecation
 ```
 
 ## Usage
