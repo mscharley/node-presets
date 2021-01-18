@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "allow sorted imports to be split into blocks",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt@scharley.me"
+}
