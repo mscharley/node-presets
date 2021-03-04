@@ -1,4 +1,4 @@
-# @mscharley/eslint-config
+# @mscharley/prettier-config
 
 **Source:** [https://github.com/mscharley/node-presets](https://github.com/mscharley/node-presets)  
 **Author:** Matthew Scharley  
@@ -10,22 +10,15 @@
 
 ## Synopsis
 
-This is a preset for eslint for use with TypeScript projects.
+This is a preset for Prettier for use with TypeScript projects.
 
 ## Installation
 
 ```console
-$ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
+$ npm install --save-dev @mscharley/prettier-config
 ```
 
 ## Usage
-
-```js
-// .eslintrc.js
-module.exports = {
-  extends: ['@mscharley'],
-};
-```
 
 ```jsonc
 // .prettierrc
