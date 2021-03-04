@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
 
 # $1 the file with the commit message
-
-echo --------------------------------------------
-echo '> Starting Git hook: commit-msg'
-
-node common/scripts/install-run-rush.js commitlint -e "$1"
-
-echo '> Finished Git hook: commit-msg'
-echo --------------------------------------------
+node common/scripts/install-run-rush.js commitlint -e "$1" # || exit $?
