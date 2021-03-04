@@ -423,6 +423,11 @@
       "versionPolicyName": "presets"
     },
     {
+      "packageName": "@mscharley/prettier-config",
+      "projectFolder": "presets/prettier",
+      "versionPolicyName": "presets"
+    },
+    {
       "packageName": "@mscharley/node-presets-project",
       "projectFolder": "internal/project",
       "shouldPublish": false

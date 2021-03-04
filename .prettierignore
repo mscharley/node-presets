@@ -71,6 +71,26 @@ common/temp/
 # Prettier-specific overrides
 #-------------------------------------------------------------------------------------------------------------------
 
-/*/*/CHANGELOG.md
-/common/changes
-/common/scripts
+# Rush files
+common/changes/
+common/scripts/
+common/config/
+CHANGELOG.*
+
+# Package manager files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+shrinkwrap.json
+
+# Build outputs
+dist
+lib
+
+# Prettier reformats code blocks inside Markdown, which affects rendered output
+*.md
+
+# Projects will manage their own prettier implementations as part of testing
+commands/
+internal/
+presets/
