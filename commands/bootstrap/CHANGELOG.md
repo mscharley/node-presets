@@ -1,6 +1,13 @@
 # Change Log - @mscharley/bootstrap-node
 
-This log was last generated on Thu, 04 Mar 2021 07:19:47 GMT and should not be manually modified.
+This log was last generated on Thu, 04 Mar 2021 07:56:18 GMT and should not be manually modified.
+
+## 0.0.3
+Thu, 04 Mar 2021 07:56:18 GMT
+
+### Patches
+
+- chore: bump eslint dependencies
 
 ## 0.0.2
 Thu, 04 Mar 2021 07:19:47 GMT
