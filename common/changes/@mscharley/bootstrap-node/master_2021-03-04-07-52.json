@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "chore: bump eslint dependencies",
+      "type": "patch",
+      "packageName": "@mscharley/bootstrap-node"
+    }
+  ],
+  "packageName": "@mscharley/bootstrap-node",
+  "email": "matt@scharley.me"
+}
