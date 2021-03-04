@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Mon, 18 Jan 2021 05:11:39 GMT and should not be manually modified.
+This log was last generated on Thu, 04 Mar 2021 07:19:47 GMT and should not be manually modified.
+
+## 1.2.8
+Thu, 04 Mar 2021 07:19:47 GMT
+
+### Patches
+
+- Bump to typescript 4.2
 
 ## 1.2.7
 Mon, 18 Jan 2021 05:11:39 GMT

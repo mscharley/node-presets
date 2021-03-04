@@ -1,6 +1,13 @@
 # Change Log - @mscharley/bootstrap-node
 
-This log was last generated on Wed, 16 Dec 2020 04:09:07 GMT and should not be manually modified.
+This log was last generated on Thu, 04 Mar 2021 07:19:47 GMT and should not be manually modified.
+
+## 0.0.2
+Thu, 04 Mar 2021 07:19:47 GMT
+
+### Patches
+
+- Bump to typescript 4.2
 
 ## 0.0.1
 Wed, 16 Dec 2020 04:09:07 GMT
