@@ -3,9 +3,12 @@ orbs:
   node: circleci/node@1.1.6
 jobs:
   build-and-test:
+    parameters:
+      node-version:
+        type: string
     executor:
       name: node/default
-      tag: "12"
+      tag: << parameters.node-version >>
     steps:
       - checkout
       - node/with-cache:
@@ -27,7 +30,7 @@ jobs:
   deploy:
     executor:
       name: node/default
-      tag: "12"
+      tag: "14"
     steps:
       - checkout
       - add_ssh_keys:
@@ -51,9 +54,14 @@ jobs:
 workflows:
   build-and-test:
     jobs:
-      - build-and-test
+      - build-and-test:
+          name: erbium
+          node-version: "12"
+      - build-and-test:
+          name: fermium
+          node-version: "14"
       - deploy:
           context: semantic-release
-          requires: ["build-and-test"]
+          requires: [ "erbium", "fermium" ]
           filters:
             branches: { only: master }
