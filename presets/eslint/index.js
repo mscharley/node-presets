@@ -1,15 +1,11 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'deprecation'],
+  plugins: ['@typescript-eslint', 'deprecation', 'prettier'],
   parserOptions: {
     project: './tsconfig.json',
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   env: {
     commonjs: true,
     es6: true,
@@ -84,6 +80,7 @@ module.exports = {
     'no-var': 'error',
     'no-void': 'error',
     'no-warning-comments': 'warn',
+    'prettier/prettier': ['error', require('@mscharley/prettier-config')],
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
     'prefer-numeric-literals': 'error',

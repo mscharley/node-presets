@@ -1,21 +1,31 @@
 {
-  "name": "@mscharley/node-presets-project",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@mscharley/prettier-config",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "",
-    "precommit": "",
+    "precommit": "prettier -w .",
     "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mscharley/node-presets.git"
   },
+  "keywords": [
+    "prettier",
+    "prettier-presets"
+  ],
+  "author": "Matthew Scharley <matt@scharley.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mscharley/node-presets/issues"
   },
   "homepage": "https://github.com/mscharley/node-presets#readme",
-  "dependencies": {}
+  "peerDependencies": {
+    "prettier": ">= 2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
