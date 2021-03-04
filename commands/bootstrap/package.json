@@ -1,6 +1,6 @@
 {
   "name": "@mscharley/bootstrap-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bootstrap an opinionated node project quickly.",
   "bin": {
     "bootstrap": "bin/bootstrap.js"
@@ -28,7 +28,7 @@
     "@babel/core": "~7.9.0",
     "@babel/preset-env": "~7.9.5",
     "@babel/preset-typescript": "~7.9.0",
-    "@mscharley/eslint-config": "~1.2.7",
+    "@mscharley/eslint-config": "~1.2.8",
     "@types/jest": "~25.2.1",
     "@types/node": "~13.13.2",
     "@typescript-eslint/parser": "~4.0.0",
