@@ -23,12 +23,10 @@ $ npm install --save-dev @mscharley/eslint-config eslint @typescript-eslint/pars
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: [
-    "@mscharley",
-  ],
+  extends: ['@mscharley'],
 };
 ```
 
-  [gh-contrib]: https://github.com/mscharley/node-presets/graphs/contributors
-  [gh-issues]: https://github.com/mscharley/node-presets/issues
-  [license]: https://github.com/mscharley/node-presets/blob/master/LICENSE
+[gh-contrib]: https://github.com/mscharley/node-presets/graphs/contributors
+[gh-issues]: https://github.com/mscharley/node-presets/issues
+[license]: https://github.com/mscharley/node-presets/blob/master/LICENSE

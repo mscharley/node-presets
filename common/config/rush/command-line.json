@@ -134,11 +134,18 @@
     // }
 
     {
-      "name": "prettier",
+      "name": "pretty-quick",
       "commandKind": "global",
       "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
       "autoinstallerName": "rush-prettier",
       "shellCommand": "pretty-quick --staged"
+    },
+    {
+      "name": "prettier",
+      "commandKind": "global",
+      "summary": "Basic access to prettier globally.",
+      "autoinstallerName": "rush-prettier",
+      "shellCommand": "prettier ."
     },
     {
       "name": "commitlint",
@@ -275,6 +282,27 @@
     //   ]
     // }
 
+    {
+      "parameterKind": "flag",
+      "longName": "--check",
+      "shortName": "-c",
+      "description": "Check if the given files are formatted.",
+      "associatedCommands": ["prettier"]
+    },
+    {
+      "parameterKind": "flag",
+      "longName": "--list-different",
+      "shortName": "-l",
+      "description": "Print the names of files that are different from Prettier's formatting.",
+      "associatedCommands": ["prettier"]
+    },
+    {
+      "parameterKind": "flag",
+      "longName": "--write",
+      "shortName": "-w",
+      "description": "Edit files in-place. (Beware!)",
+      "associatedCommands": ["prettier"]
+    },
     {
       "parameterKind": "string",
       "longName": "--edit",
