@@ -30,12 +30,12 @@ jobs:
   deploy:
     executor:
       name: node/default
-      tag: "14"
+      tag: '14'
     steps:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "e2:f9:0e:ba:2c:c0:7e:ca:5d:18:ef:f2:1c:b5:a4:20"
+            - 'e2:f9:0e:ba:2c:c0:7e:ca:5d:18:ef:f2:1c:b5:a4:20'
       - run:
           name: Configure git
           command: |-
@@ -56,12 +56,12 @@ workflows:
     jobs:
       - build-and-test:
           name: erbium
-          node-version: "12"
+          node-version: '12'
       - build-and-test:
           name: fermium
-          node-version: "14"
+          node-version: '14'
       - deploy:
           context: semantic-release
-          requires: [ "erbium", "fermium" ]
+          requires: ['erbium', 'fermium']
           filters:
             branches: { only: master }
