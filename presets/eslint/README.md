@@ -23,6 +23,7 @@ $ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
 ```js
 // .eslintrc.js
 module.exports = {
+  root: true,
   extends: ['@mscharley'],
 };
 ```

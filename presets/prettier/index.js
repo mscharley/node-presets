@@ -1,11 +1,14 @@
 // Documentation for this file: https://prettier.io/docs/en/configuration.html
 module.exports = {
-  printWidth: 120,
-  // Use .gitattributes to manage newlines
-  endOfLine: 'auto',
+  printWidth: 80,
+  semi: true,
+  endOfLine: 'lf',
   // Use single quotes instead of double quotes
   singleQuote: true,
-  // For ES5, trailing commas cannot be used in function parameters; it is counterintuitive
-  // to use them for arrays only
-  // trailingComma: "none"
+  jsxSingleQuote: true,
+  quoteProps: 'consistent',
+  // This requires a modern ECMAScript interpreter. We use TypeScript to transpile, set the
+  // target there appropriately.
+  trailingComma: 'all',
+  arrowParens: 'always',
 };
