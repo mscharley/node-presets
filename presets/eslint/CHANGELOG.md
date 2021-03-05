@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 04 Mar 2021 07:56:18 GMT and should not be manually modified.
+This log was last generated on Fri, 05 Mar 2021 09:21:17 GMT and should not be manually modified.
+
+## 1.3.0
+Fri, 05 Mar 2021 09:21:17 GMT
+
+### Minor changes
+
+- feat: implement prettier support
 
 ## 1.2.9
 Thu, 04 Mar 2021 07:56:18 GMT
