@@ -5,8 +5,12 @@
   "main": "index.json",
   "scripts": {
     "build": "",
-    "precommit": "eslint --fix -c index.js *.js",
+    "precommit": "lint-staged",
     "test": "eslint -c index.js *.js"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.{json}": "prettier -w"
   },
   "repository": {
     "type": "git",
@@ -37,6 +41,7 @@
   },
   "devDependencies": {
     "@mscharley/prettier-config": "workspace:~1.0.0",
+    "lint-staged": "~10.5.4",
     "typescript": "~4.2.2"
   }
 }
