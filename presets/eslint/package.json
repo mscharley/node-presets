@@ -2,7 +2,7 @@
   "name": "@mscharley/eslint-config",
   "version": "1.2.9",
   "description": "ESLint presets that I use a lot",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "build": "",
     "precommit": "eslint --fix -c index.js *.js",
@@ -32,17 +32,11 @@
     "@typescript-eslint/eslint-plugin": "^4.16.1"
   },
   "peerDependencies": {
-    "@mscharley/prettier-config": "workspace:~1.0.0"
+    "@mscharley/prettier-config": "workspace:~1.0.0",
+    "typescript": ">= 4.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-deprecation": "^1.2.0",
-    "eslint-plugin-prettier": "^3.3.1",
     "@mscharley/prettier-config": "workspace:~1.0.0",
-    "prettier": "^2.2.1",
-    "@typescript-eslint/parser": "^4.16.1",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
     "typescript": "~4.2.2"
   }
 }
