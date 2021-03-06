@@ -17,6 +17,10 @@
     "prettier-presets"
   ],
   "author": "Matthew Scharley <matt@scharley.me>",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/mscharley"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mscharley/node-presets/issues"
