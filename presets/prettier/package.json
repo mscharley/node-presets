@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "",
-    "precommit": "prettier -w .",
+    "precommit": "prettier -w *.js",
     "test": ""
   },
   "repository": {
