@@ -13,7 +13,6 @@
     "array-callback-return": "error",
     "arrow-spacing": "error",
     "block-scoped-var": "warn",
-    "brace-style": ["error", "stroustrup"],
     "complexity": ["warn", { "max": 20 }],
     "consistent-return": "error",
     "curly": ["error", "all"],
