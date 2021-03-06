@@ -1,6 +1,14 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Fri, 05 Mar 2021 09:21:17 GMT and should not be manually modified.
+This log was last generated on Sat, 06 Mar 2021 03:03:15 GMT and should not be manually modified.
+
+## 1.3.1
+Sat, 06 Mar 2021 03:03:15 GMT
+
+### Patches
+
+- chore: add funding info
+- fix: disable prefer-readonly-parameter-types
 
 ## 1.3.0
 Fri, 05 Mar 2021 09:21:17 GMT

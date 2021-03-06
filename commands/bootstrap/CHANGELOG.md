@@ -1,6 +1,13 @@
 # Change Log - @mscharley/bootstrap-node
 
-This log was last generated on Fri, 05 Mar 2021 09:21:17 GMT and should not be manually modified.
+This log was last generated on Sat, 06 Mar 2021 03:03:15 GMT and should not be manually modified.
+
+## 0.0.5
+Sat, 06 Mar 2021 03:03:15 GMT
+
+### Patches
+
+- chore: add funding info
 
 ## 0.0.4
 Fri, 05 Mar 2021 09:21:17 GMT
