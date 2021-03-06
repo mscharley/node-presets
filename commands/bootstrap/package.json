@@ -3,13 +3,13 @@
   "version": "0.0.5",
   "description": "Bootstrap an opinionated node project quickly.",
   "bin": {
-    "bootstrap": "bin/bootstrap.js"
+    "bootstrap": "dist/bin/bootstrap.js"
   },
   "scripts": {
     "build": "tsc",
     "precommit": "lint-staged",
     "test": "npm run test:lint && npm run test:jest",
-    "test:lint": "eslint --ext .js,.jsx,.ts,.tsx src __tests__",
+    "test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "test:jest": "jest 2>&1"
   },
   "lint-staged": {
