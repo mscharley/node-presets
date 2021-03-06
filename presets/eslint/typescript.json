@@ -13,8 +13,6 @@
         "readonly": "generic"
       }
     ],
-    "brace-style": "off",
-    "@typescript-eslint/brace-style": ["error", "stroustrup"],
     "@typescript-eslint/class-literal-property-style": ["error", "fields"],
     "@typescript-eslint/consistent-indexed-object-style": [ "error", "record" ],
     "@typescript-eslint/consistent-type-assertions": [
