@@ -75,8 +75,8 @@
     "@typescript-eslint/no-type-alias": [
       "error",
       {
-        "allowAliases": "in-intersections",
-        "allowLiterals": "in-intersections",
+        "allowAliases": "in-unions-and-intersections",
+        "allowLiterals": "in-unions-and-intersections",
         "allowCallbacks": "always",
         "allowConditionalTypes": "always",
         "allowConstructors": "always",
