@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Mon, 08 Mar 2021 11:15:51 GMT and should not be manually modified.
+This log was last generated on Mon, 08 Mar 2021 11:43:10 GMT and should not be manually modified.
+
+## 1.3.5
+Mon, 08 Mar 2021 11:43:10 GMT
+
+### Patches
+
+- fix: allow void in some cases
 
 ## 1.3.4
 Mon, 08 Mar 2021 11:15:51 GMT
