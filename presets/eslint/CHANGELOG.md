@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Mon, 08 Mar 2021 09:01:29 GMT and should not be manually modified.
+This log was last generated on Mon, 08 Mar 2021 11:15:51 GMT and should not be manually modified.
+
+## 1.3.4
+Mon, 08 Mar 2021 11:15:51 GMT
+
+### Patches
+
+- fix: allow 0 and 1 as magic numbers
 
 ## 1.3.3
 Mon, 08 Mar 2021 09:01:29 GMT
