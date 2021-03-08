@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Sat, 06 Mar 2021 03:48:39 GMT and should not be manually modified.
+This log was last generated on Mon, 08 Mar 2021 09:01:29 GMT and should not be manually modified.
+
+## 1.3.3
+Mon, 08 Mar 2021 09:01:29 GMT
+
+### Patches
+
+- fix: add unions to no-type-alias too
 
 ## 1.3.2
 Sat, 06 Mar 2021 03:48:39 GMT
