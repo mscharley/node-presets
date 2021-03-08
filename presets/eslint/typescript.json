@@ -63,6 +63,7 @@
       "warn",
       {
         "enforceConst": false,
+        "ignore": [0, 1],
         "ignoreArrayIndexes": true,
         "ignoreEnums": true,
         "ignoreNumericLiteralTypes": true
