@@ -9,7 +9,7 @@
     "test": "eslint -c index.js *.js"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.{js,jsx,ts,tsx}": "eslint -c index.js --fix",
     "*.{json}": "prettier -w"
   },
   "repository": {

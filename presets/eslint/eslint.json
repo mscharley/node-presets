@@ -3,6 +3,7 @@
     "eslint:recommended",
     "./prettier"
   ],
+  "parser": "espree",
   "plugins": ["deprecation"],
   "env": {
     "commonjs": true,
@@ -18,7 +19,7 @@
     "curly": ["error", "all"],
     "default-case": "error",
     "default-param-last": "error",
-    "deprecation/deprecation": "warn",
+    "deprecation/deprecation": "off",
     "dot-location": ["error", "property"],
     "dot-notation": "warn",
     "eol-last": "error",
@@ -49,6 +50,7 @@
       "warn",
       {
         "enforceConst": false,
+        "ignore": [0, 1],
         "ignoreArrayIndexes": true
       }
     ],

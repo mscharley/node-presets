@@ -1,108 +1,111 @@
 {
-  "extends": [
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "rules": {
-    "@typescript-eslint/array-type": [
-      "error",
-      {
-        "default": "array-simple",
-        "readonly": "generic"
-      }
-    ],
-    "@typescript-eslint/class-literal-property-style": ["error", "fields"],
-    "@typescript-eslint/consistent-indexed-object-style": [ "error", "record" ],
-    "@typescript-eslint/consistent-type-assertions": [
-      "warn",
-      {
-        "assertionStyle": "as",
-        "objectLiteralTypeAssertions": "allow-as-parameter"
-      }
-    ],
-    "@typescript-eslint/consistent-type-imports": [
-      "warn",
-      { "prefer": "type-imports", "disallowTypeAnnotations": true }
-    ],
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowConciseArrowFunctionExpressionsStartingWithVoid": true,
-        "allowDirectConstAssertionInArrowFunctions": false,
-        "allowExpressions": false,
-        "allowHigherOrderFunctions": true,
-        "allowTypedFunctionExpressions": true
-      }
-    ],
-    "default-param-last": "off",
-    "@typescript-eslint/default-param-last": "error",
-    "@typescript-eslint/explicit-member-accessibility": "error",
-    "@typescript-eslint/explicit-module-boundary-types": [
-      "error",
-      {
-        "allowArgumentsExplicitlyTypedAsAny": false,
-        "allowDirectConstAssertionInArrowFunctions": false,
-        "allowedNames": [],
-        "allowHigherOrderFunctions": true,
-        "allowTypedFunctionExpressions": true
-      }
-    ],
-    "@typescript-eslint/member-delimiter-style": "error",
-    "@typescript-eslint/method-signature-style": ["error", "property"],
-    "no-duplicate-imports": "off",
-    "@typescript-eslint/no-duplicate-imports": "error",
-    "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/no-implicit-any-catch": "error",
-    "@typescript-eslint/no-invalid-void-type": "warn",
-    "no-magic-numbers": "off",
-    "no-loop-func": "off",
-    "@typescript-eslint/no-loop-func": "error",
-    "@typescript-eslint/no-magic-numbers": [
-      "warn",
-      {
-        "enforceConst": false,
-        "ignore": [0, 1],
-        "ignoreArrayIndexes": true,
-        "ignoreEnums": true,
-        "ignoreNumericLiteralTypes": true
-      }
-    ],
-    "@typescript-eslint/no-misused-new": "error",
-    "@typescript-eslint/no-non-null-assertion": "error",
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error",
-    "@typescript-eslint/no-type-alias": [
-      "error",
-      {
-        "allowAliases": "in-unions-and-intersections",
-        "allowLiterals": "in-unions-and-intersections",
-        "allowCallbacks": "always",
-        "allowConditionalTypes": "always",
-        "allowConstructors": "always",
-        "allowMappedTypes": "always",
-        "allowTupleTypes": "always"
-      }
-    ],
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "error",
-    "no-useless-constructor": "off",
-    "@typescript-eslint/no-useless-constructor": "error",
-    "@typescript-eslint/prefer-for-of": "error",
-    "@typescript-eslint/prefer-function-type": "error",
-    "quotes": "off",
-    "@typescript-eslint/quotes": [
-      "warn",
-      "single",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
-    "@typescript-eslint/unified-signatures": "warn"
-  },
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
+        "deprecation/deprecation": "warn",
+        "@typescript-eslint/array-type": [
+          "error",
+          {
+            "default": "array-simple",
+            "readonly": "generic"
+          }
+        ],
+        "@typescript-eslint/class-literal-property-style": ["error", "fields"],
+        "@typescript-eslint/consistent-indexed-object-style": [ "error", "record" ],
+        "@typescript-eslint/consistent-type-assertions": [
+          "warn",
+          {
+            "assertionStyle": "as",
+            "objectLiteralTypeAssertions": "allow-as-parameter"
+          }
+        ],
+        "@typescript-eslint/consistent-type-imports": [
+          "warn",
+          { "prefer": "type-imports", "disallowTypeAnnotations": true }
+        ],
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            "allowConciseArrowFunctionExpressionsStartingWithVoid": true,
+            "allowDirectConstAssertionInArrowFunctions": false,
+            "allowExpressions": false,
+            "allowHigherOrderFunctions": true,
+            "allowTypedFunctionExpressions": true
+          }
+        ],
+        "default-param-last": "off",
+        "@typescript-eslint/default-param-last": "error",
+        "@typescript-eslint/explicit-member-accessibility": "error",
+        "@typescript-eslint/explicit-module-boundary-types": [
+          "error",
+          {
+            "allowArgumentsExplicitlyTypedAsAny": false,
+            "allowDirectConstAssertionInArrowFunctions": false,
+            "allowedNames": [],
+            "allowHigherOrderFunctions": true,
+            "allowTypedFunctionExpressions": true
+          }
+        ],
+        "@typescript-eslint/member-delimiter-style": "error",
+        "@typescript-eslint/method-signature-style": ["error", "property"],
+        "no-duplicate-imports": "off",
+        "@typescript-eslint/no-duplicate-imports": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-implicit-any-catch": "error",
+        "@typescript-eslint/no-invalid-void-type": "warn",
+        "no-magic-numbers": "off",
+        "no-loop-func": "off",
+        "@typescript-eslint/no-loop-func": "error",
+        "@typescript-eslint/no-magic-numbers": [
+          "warn",
+          {
+            "enforceConst": false,
+            "ignore": [0, 1],
+            "ignoreArrayIndexes": true,
+            "ignoreEnums": true,
+            "ignoreNumericLiteralTypes": true
+          }
+        ],
+        "@typescript-eslint/no-misused-new": "error",
+        "@typescript-eslint/no-non-null-assertion": "error",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "error",
+        "@typescript-eslint/no-type-alias": [
+          "error",
+          {
+            "allowAliases": "in-unions-and-intersections",
+            "allowLiterals": "in-unions-and-intersections",
+            "allowCallbacks": "always",
+            "allowConditionalTypes": "always",
+            "allowConstructors": "always",
+            "allowMappedTypes": "always",
+            "allowTupleTypes": "always"
+          }
+        ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": "error",
+        "no-useless-constructor": "off",
+        "@typescript-eslint/no-useless-constructor": "error",
+        "@typescript-eslint/prefer-for-of": "error",
+        "@typescript-eslint/prefer-function-type": "error",
+        "quotes": "off",
+        "@typescript-eslint/quotes": [
+          "warn",
+          "single",
+          { "avoidEscape": true, "allowTemplateLiterals": false }
+        ],
+        "@typescript-eslint/unified-signatures": "warn",
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/ban-ts-comment": [
           "error",
