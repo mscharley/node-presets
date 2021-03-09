@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Mon, 08 Mar 2021 15:33:00 GMT and should not be manually modified.
+This log was last generated on Tue, 09 Mar 2021 03:51:43 GMT and should not be manually modified.
+
+## 1.3.7
+Tue, 09 Mar 2021 03:51:43 GMT
+
+### Patches
+
+- fix: allow for importing just eslint settings
 
 ## 1.3.6
 Mon, 08 Mar 2021 15:33:00 GMT
