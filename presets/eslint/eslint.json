@@ -4,7 +4,6 @@
     "./prettier"
   ],
   "parser": "espree",
-  "plugins": ["deprecation"],
   "env": {
     "commonjs": true,
     "es6": true,
@@ -19,7 +18,6 @@
     "curly": ["error", "all"],
     "default-case": "error",
     "default-param-last": "error",
-    "deprecation/deprecation": "off",
     "dot-location": ["error", "property"],
     "dot-notation": "warn",
     "eol-last": "error",

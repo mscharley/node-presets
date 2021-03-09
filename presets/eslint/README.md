@@ -24,6 +24,7 @@ $ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
 // .eslintrc.js
 module.exports = {
   root: true,
+  // If you only wish to lint JavaScript files you can extend '@mscharley/eslint-config/eslint' instead.
   extends: ['@mscharley'],
 };
 ```
