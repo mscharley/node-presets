@@ -1,6 +1,56 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Fri, 05 Mar 2021 09:21:17 GMT and should not be manually modified.
+This log was last generated on Tue, 09 Mar 2021 03:51:43 GMT and should not be manually modified.
+
+## 1.3.7
+Tue, 09 Mar 2021 03:51:43 GMT
+
+### Patches
+
+- fix: allow for importing just eslint settings
+
+## 1.3.6
+Mon, 08 Mar 2021 15:33:00 GMT
+
+### Patches
+
+- fix: allow linting top-level js config files
+
+## 1.3.5
+Mon, 08 Mar 2021 11:43:10 GMT
+
+### Patches
+
+- fix: allow void in some cases
+
+## 1.3.4
+Mon, 08 Mar 2021 11:15:51 GMT
+
+### Patches
+
+- fix: allow 0 and 1 as magic numbers
+
+## 1.3.3
+Mon, 08 Mar 2021 09:01:29 GMT
+
+### Patches
+
+- fix: add unions to no-type-alias too
+
+## 1.3.2
+Sat, 06 Mar 2021 03:48:39 GMT
+
+### Patches
+
+- fix: remove conflicting rule between eslint and prettier
+
+## 1.3.1
+Sat, 06 Mar 2021 03:03:15 GMT
+
+### Patches
+
+- chore: add funding info
+- fix: disable prefer-readonly-parameter-types
 
 ## 1.3.0
 Fri, 05 Mar 2021 09:21:17 GMT

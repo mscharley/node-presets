@@ -3,7 +3,7 @@
     "eslint:recommended",
     "./prettier"
   ],
-  "plugins": ["deprecation"],
+  "parser": "espree",
   "env": {
     "commonjs": true,
     "es6": true,
@@ -13,13 +13,11 @@
     "array-callback-return": "error",
     "arrow-spacing": "error",
     "block-scoped-var": "warn",
-    "brace-style": ["error", "stroustrup"],
     "complexity": ["warn", { "max": 20 }],
     "consistent-return": "error",
     "curly": ["error", "all"],
     "default-case": "error",
     "default-param-last": "error",
-    "deprecation/deprecation": "warn",
     "dot-location": ["error", "property"],
     "dot-notation": "warn",
     "eol-last": "error",
@@ -50,6 +48,7 @@
       "warn",
       {
         "enforceConst": false,
+        "ignore": [0, 1],
         "ignoreArrayIndexes": true
       }
     ],
@@ -87,7 +86,7 @@
     "no-useless-rename": "error",
     "no-useless-return": "error",
     "no-var": "error",
-    "no-void": "error",
+    "no-void": ["error", { "allowAsStatement": true }],
     "no-warning-comments": "warn",
     "prefer-arrow-callback": "error",
     "prefer-const": "error",

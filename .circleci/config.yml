@@ -9,6 +9,7 @@ jobs:
     executor:
       name: node/default
       tag: << parameters.node-version >>
+    working_directory: /mnt/ramdisk
     steps:
       - checkout
       - node/with-cache:
@@ -31,6 +32,7 @@ jobs:
     executor:
       name: node/default
       tag: '14'
+    working_directory: /mnt/ramdisk
     steps:
       - checkout
       - add_ssh_keys:
