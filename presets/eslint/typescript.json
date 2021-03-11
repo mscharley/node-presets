@@ -39,7 +39,7 @@
           { "prefer": "type-imports", "disallowTypeAnnotations": true }
         ],
         "@typescript-eslint/explicit-function-return-type": [
-          "error",
+          "warn",
           {
             "allowConciseArrowFunctionExpressionsStartingWithVoid": true,
             "allowDirectConstAssertionInArrowFunctions": false,
