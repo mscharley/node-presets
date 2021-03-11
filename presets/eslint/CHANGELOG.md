@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Tue, 09 Mar 2021 03:51:43 GMT and should not be manually modified.
+This log was last generated on Thu, 11 Mar 2021 10:43:16 GMT and should not be manually modified.
+
+## 1.3.8
+Thu, 11 Mar 2021 10:43:16 GMT
+
+### Patches
+
+- fix: make explicit-function-return-type a warning
 
 ## 1.3.7
 Tue, 09 Mar 2021 03:51:43 GMT
