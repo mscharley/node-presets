@@ -105,7 +105,7 @@
     "require-await": "error",
     "require-unicode-regexp": "warn",
     "rest-spread-spacing": ["error", "never"],
-    "sort-imports": ["error", { "allowSeparatedGroups": true, "ignoreCase": true }],
+    "sort-imports": ["warn", { "allowSeparatedGroups": true, "ignoreCase": true }],
     "symbol-description": "error"
   }
 }
