@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 11 Mar 2021 10:43:16 GMT and should not be manually modified.
+This log was last generated on Fri, 19 Mar 2021 01:16:16 GMT and should not be manually modified.
+
+## 1.3.9
+Fri, 19 Mar 2021 01:16:16 GMT
+
+### Patches
+
+- fix: make sort-imports rule a warning
 
 ## 1.3.8
 Thu, 11 Mar 2021 10:43:16 GMT
