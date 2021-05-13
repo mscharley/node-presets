@@ -246,7 +246,16 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    "versionBumpCommitMessage": "chore: applying version updates [skip ci]"
+    "versionBumpCommitMessage": "chore(rush): applying version updates [skip ci]",
+
+    /**
+     * The commit message to use when committing changes during 'rush version'.
+     *
+     * For example, if you want to prevent these commits from triggering a CI build,
+     * you might configure your system's trigger to look for a special string such as "[skip-ci]"
+     * in the commit message, and then customize Rush's message to contain that string.
+     */
+    "changeLogUpdateCommitMessage": "chore(rush): applying package updates. [skip ci]"
   },
 
   "repository": {
