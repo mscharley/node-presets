@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Enabled the @typescript-eslint/unbound-method eslint rule",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt.scharley@gmail.com"
+}
