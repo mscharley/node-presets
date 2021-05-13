@@ -21,8 +21,8 @@ importers:
       '@babel/core': ~7.9.0
       '@babel/preset-env': ~7.9.5
       '@babel/preset-typescript': ~7.9.0
-      '@mscharley/eslint-config': workspace:~1.2.9
-      '@mscharley/prettier-config': workspace:~1.0.0
+      '@mscharley/eslint-config': workspace:~1.4.0
+      '@mscharley/prettier-config': workspace:~1.1.1
       '@types/jest': ~25.2.1
       '@types/node': ~13.13.2
       babel-jest: ~25.4.0
@@ -48,7 +48,7 @@ importers:
       lint-staged: 10.5.4
       typescript: 4.2.2
     specifiers:
-      '@mscharley/prettier-config': workspace:~1.0.0
+      '@mscharley/prettier-config': workspace:~1.1.1
       '@typescript-eslint/eslint-plugin': ^4.16.1
       '@typescript-eslint/parser': ^4.16.1
       eslint: ^7.21.0
