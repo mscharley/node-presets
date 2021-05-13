@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Fri, 19 Mar 2021 01:16:16 GMT and should not be manually modified.
+This log was last generated on Thu, 13 May 2021 02:22:48 GMT and should not be manually modified.
+
+## 1.4.0
+Thu, 13 May 2021 02:22:48 GMT
+
+### Minor changes
+
+- Enabled the @typescript-eslint/unbound-method eslint rule
 
 ## 1.3.9
 Fri, 19 Mar 2021 01:16:16 GMT
