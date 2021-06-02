@@ -10,7 +10,7 @@
 
 ## Synopsis
 
-This is a preset for eslint for use with TypeScript projects.
+This is a preset for eslint for use with TypeScript or JavaScript projects.
 
 ## Installation
 
@@ -24,8 +24,11 @@ $ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
 // .eslintrc.js
 module.exports = {
   root: true,
-  // If you only wish to lint JavaScript files you can extend '@mscharley/eslint-config/eslint' instead.
-  extends: ['@mscharley'],
+  extends: [
+    '@mscharley', // For TS projects or mixed TS/JS projects.
+    // '@mscharley/eslint-config/eslint', // For JS-only projects.
+    '@mscharley/eslint-config/node', // For projects running on node.
+  ],
 };
 ```
 
