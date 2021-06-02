@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "plugin:node/recommended"
+  ],
+  "rules": {
+    "node/no-sync": "warn",
+    "node/prefer-promises/dns": "warn",
+    "node/prefer-promises/fs": "warn"
+  }
+}

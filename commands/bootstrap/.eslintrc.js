@@ -1,6 +1,3 @@
 module.exports = {
-  env: {
-    node: true,
-  },
-  extends: ['@mscharley'],
+  extends: ['@mscharley', '@mscharley/eslint-config/node'],
 };
