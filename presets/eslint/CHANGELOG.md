@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Sun, 06 Jun 2021 09:28:52 GMT and should not be manually modified.
+This log was last generated on Sun, 06 Jun 2021 10:12:59 GMT and should not be manually modified.
+
+## 1.5.1
+Sun, 06 Jun 2021 10:12:59 GMT
+
+### Patches
+
+- fix(node): cleanup some issues with node/ts compatibility
 
 ## 1.5.0
 Sun, 06 Jun 2021 09:28:52 GMT
