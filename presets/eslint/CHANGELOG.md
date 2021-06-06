@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 13 May 2021 02:22:48 GMT and should not be manually modified.
+This log was last generated on Sun, 06 Jun 2021 09:28:52 GMT and should not be manually modified.
+
+## 1.5.0
+Sun, 06 Jun 2021 09:28:52 GMT
+
+### Minor changes
+
+- feat(eslint): enable node specific rules
 
 ## 1.4.0
 Thu, 13 May 2021 02:22:48 GMT
