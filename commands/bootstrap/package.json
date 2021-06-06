@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "precommit": "lint-staged",
-    "test": "npm run test:lint && npm run test:jest",
+    "test": "rushx test:jest",
     "test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "test:jest": "jest 2>&1"
   },
