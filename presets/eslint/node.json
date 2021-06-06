@@ -2,9 +2,22 @@
   "extends": [
     "plugin:node/recommended"
   ],
+  "settings": {
+    "node": {
+        "tryExtensions": [".js", ".jsx", ".json", ".node", ".ts", ".tsx"]
+    }
+  },
   "rules": {
     "node/no-sync": "warn",
     "node/prefer-promises/dns": "warn",
     "node/prefer-promises/fs": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "node/no-unsupported-features/es-syntax": "off"
+      }
+    }
+  ]
 }
