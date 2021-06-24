@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.5.2",
+      "tag": "@mscharley/eslint-config_v1.5.2",
+      "date": "Thu, 24 Jun 2021 06:27:07 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: add typescript definitions as valid imports"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.5.1",
       "tag": "@mscharley/eslint-config_v1.5.1",
       "date": "Sun, 06 Jun 2021 10:12:59 GMT",

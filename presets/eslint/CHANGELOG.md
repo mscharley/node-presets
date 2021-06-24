@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Sun, 06 Jun 2021 10:12:59 GMT and should not be manually modified.
+This log was last generated on Thu, 24 Jun 2021 06:27:07 GMT and should not be manually modified.
+
+## 1.5.2
+Thu, 24 Jun 2021 06:27:07 GMT
+
+### Patches
+
+- fix: add typescript definitions as valid imports
 
 ## 1.5.1
 Sun, 06 Jun 2021 10:12:59 GMT
