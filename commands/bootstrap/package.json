@@ -37,7 +37,7 @@
     "@babel/core": "~7.9.0",
     "@babel/preset-env": "~7.9.5",
     "@babel/preset-typescript": "~7.9.0",
-    "@mscharley/eslint-config": "workspace:~1.5.1",
+    "@mscharley/eslint-config": "workspace:~1.5.2",
     "@mscharley/prettier-config": "workspace:~1.1.1",
     "@types/jest": "~25.2.1",
     "@types/node": "~13.13.2",
