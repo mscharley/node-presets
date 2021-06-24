@@ -4,7 +4,7 @@
   ],
   "settings": {
     "node": {
-        "tryExtensions": [".js", ".jsx", ".json", ".node", ".ts", ".tsx"]
+        "tryExtensions": [".js", ".jsx", ".json", ".node", ".d.ts", ".ts", ".tsx"]
     }
   },
   "rules": {
