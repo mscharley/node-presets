@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "fix: explicitly disable indent rule to prevent conflicts with prettier",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt@scharley.me"
+}

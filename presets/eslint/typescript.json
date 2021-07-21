@@ -61,6 +61,7 @@
             "allowTypedFunctionExpressions": true
           }
         ],
+        "@typescript-eslint/indent": "off",
         "@typescript-eslint/member-delimiter-style": "error",
         "@typescript-eslint/method-signature-style": ["error", "property"],
         "no-duplicate-imports": "off",

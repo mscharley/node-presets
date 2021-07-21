@@ -25,6 +25,7 @@
     "generator-star-spacing": ["error", "after"],
     "grouped-accessor-pairs": ["error", "getBeforeSet"],
     "guard-for-in": "warn",
+    "indent": "off",
     "jsx-quotes": ["warn", "prefer-single"],
     "linebreak-style": ["error", "unix"],
     "no-alert": "warn",
