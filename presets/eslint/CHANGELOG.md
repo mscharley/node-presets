@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 24 Jun 2021 06:27:07 GMT and should not be manually modified.
+This log was last generated on Thu, 22 Jul 2021 08:07:44 GMT and should not be manually modified.
+
+## 1.5.3
+Thu, 22 Jul 2021 08:07:44 GMT
+
+### Patches
+
+- fix: explicitly disable indent rule to prevent conflicts with prettier
 
 ## 1.5.2
 Thu, 24 Jun 2021 06:27:07 GMT
