@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.6.0",
+      "tag": "@mscharley/eslint-config_v1.6.0",
+      "date": "Fri, 03 Sep 2021 15:47:23 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "fix: move dependencies into peerDependencies"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.5.3",
       "tag": "@mscharley/eslint-config_v1.5.3",
       "date": "Thu, 22 Jul 2021 08:07:44 GMT",

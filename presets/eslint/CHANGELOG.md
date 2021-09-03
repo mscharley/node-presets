@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 22 Jul 2021 08:07:44 GMT and should not be manually modified.
+This log was last generated on Fri, 03 Sep 2021 15:47:23 GMT and should not be manually modified.
+
+## 1.6.0
+Fri, 03 Sep 2021 15:47:23 GMT
+
+### Minor changes
+
+- fix: move dependencies into peerDependencies
 
 ## 1.5.3
 Thu, 22 Jul 2021 08:07:44 GMT
