@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --fix",
-    "*.{json}": "prettier -w"
+    "*.json": "prettier -w"
   },
   "repository": {
     "type": "git",
@@ -38,15 +38,23 @@
     "@babel/core": "~7.15.5",
     "@babel/preset-env": "~7.15.6",
     "@babel/preset-typescript": "~7.15.0",
-    "@mscharley/eslint-config": "workspace:~1.6.0",
-    "@mscharley/prettier-config": "workspace:~1.1.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@mscharley/eslint-config": "workspace:*",
+    "@mscharley/prettier-config": "workspace:*",
     "@types/jest": "~27.0.1",
     "@types/node": "~16.9.1",
     "babel-jest": "~27.2.0",
     "bufferutil": "~4.0.3",
     "canvas": "~2.8.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-deprecation": "^1.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "lint-staged": "~11.1.2",
     "jest": "~27.2.0",
+    "prettier": "^2.4.0",
     "typescript": "~4.4.3",
     "utf-8-validate": "~5.0.5",
     "npm-check-updates": "~11.8.5"
