@@ -2,6 +2,26 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.6.1",
+      "tag": "@mscharley/eslint-config_v1.6.1",
+      "date": "Wed, 15 Sep 2021 11:43:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: dependency updates"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.6.0",
       "tag": "@mscharley/eslint-config_v1.6.0",
       "date": "Fri, 03 Sep 2021 15:47:23 GMT",

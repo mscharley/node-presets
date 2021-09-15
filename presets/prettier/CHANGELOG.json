@@ -2,6 +2,18 @@
   "name": "@mscharley/prettier-config",
   "entries": [
     {
+      "version": "1.1.2",
+      "tag": "@mscharley/prettier-config_v1.1.2",
+      "date": "Wed, 15 Sep 2021 11:43:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: dependency updates"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.1",
       "tag": "@mscharley/prettier-config_v1.1.1",
       "date": "Sat, 06 Mar 2021 03:03:15 GMT",

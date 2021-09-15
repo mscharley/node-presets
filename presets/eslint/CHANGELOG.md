@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Fri, 03 Sep 2021 15:47:23 GMT and should not be manually modified.
+This log was last generated on Wed, 15 Sep 2021 11:43:56 GMT and should not be manually modified.
+
+## 1.6.1
+Wed, 15 Sep 2021 11:43:56 GMT
+
+### Patches
+
+- fix: dependency updates
 
 ## 1.6.0
 Fri, 03 Sep 2021 15:47:23 GMT
