@@ -118,6 +118,13 @@
       "enableParallelism": true,
       "ignoreDependencyOrder": true
     },
+    {
+      "commandKind": "bulk",
+      "name": "check-updates",
+      "summary": "Checks for updates in all packages.",
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true
+    },
 
     // {
     //   /**

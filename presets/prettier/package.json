@@ -6,6 +6,7 @@
   "scripts": {
     "build": "",
     "precommit": "prettier -w *.js",
+    "check-updates": "npm-check-updates 2>&1",
     "test": ""
   },
   "repository": {
@@ -30,6 +31,7 @@
     "prettier": ">= 2.2.1"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "npm-check-updates": "~11.8.5"
   }
 }

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "",
     "precommit": "lint-staged",
+    "check-updates": "npm-check-updates 2>&1",
     "test": "eslint -c index.js *.js"
   },
   "lint-staged": {
@@ -30,8 +31,6 @@
     "url": "https://github.com/mscharley/node-presets/issues"
   },
   "homepage": "https://github.com/mscharley/node-presets#readme",
-  "dependencies": {
-  },
   "peerDependencies": {
     "@mscharley/prettier-config": "workspace:~1.1.1",
     "@typescript-eslint/parser": "^4.16.1",
@@ -55,6 +54,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
     "lint-staged": "~10.5.4",
-    "typescript": "~4.2.2"
+    "typescript": "~4.2.2",
+    "npm-check-updates": "~11.8.5"
   }
 }
