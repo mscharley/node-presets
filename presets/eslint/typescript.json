@@ -5,16 +5,12 @@
   },
   "overrides": [
     {
-      "extends": [
-        "plugin:@typescript-eslint/recommended"
-      ],
+      "extends": ["plugin:@typescript-eslint/recommended"],
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "project": "./tsconfig.json"
       },
-      "plugins": [
-        "@typescript-eslint"
-      ],
+      "plugins": ["@typescript-eslint"],
       "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
         "deprecation/deprecation": "warn",
@@ -26,7 +22,10 @@
           }
         ],
         "@typescript-eslint/class-literal-property-style": ["error", "fields"],
-        "@typescript-eslint/consistent-indexed-object-style": [ "error", "record" ],
+        "@typescript-eslint/consistent-indexed-object-style": [
+          "error",
+          "record"
+        ],
         "@typescript-eslint/consistent-type-assertions": [
           "warn",
           {
@@ -137,6 +136,11 @@
         "@typescript-eslint/no-require-imports": "error",
         "no-throw-literal": "off",
         "@typescript-eslint/no-throw-literal": "error",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "warn",
+          { "varsIgnorePattern": "^_" }
+        ],
         "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
           "error",
           {
@@ -162,16 +166,19 @@
         "@typescript-eslint/restrict-plus-operands": "warn",
         "no-return-await": "off",
         "@typescript-eslint/return-await": ["error", "in-try-catch"],
-        "@typescript-eslint/strict-boolean-expressions": ["error", {
-          "allowString": false,
-          "allowNumber": false,
-          "allowNullableObject": false,
-          "allowNullableBoolean": false,
-          "allowNullableString": false,
-          "allowNullableNumber": false,
-          "allowAny": false,
-          "allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing": false
-        }],
+        "@typescript-eslint/strict-boolean-expressions": [
+          "error",
+          {
+            "allowString": false,
+            "allowNumber": false,
+            "allowNullableObject": false,
+            "allowNullableBoolean": false,
+            "allowNullableString": false,
+            "allowNullableNumber": false,
+            "allowAny": false,
+            "allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing": false
+          }
+        ],
         "@typescript-eslint/unbound-method": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "error"
       }

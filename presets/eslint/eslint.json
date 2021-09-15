@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "./prettier"
-  ],
+  "extends": ["eslint:recommended", "./prettier"],
   "parser": "espree",
   "env": {
     "commonjs": true,
@@ -53,7 +50,10 @@
         "ignoreArrayIndexes": true
       }
     ],
-    "no-multi-spaces": ["error", { "exceptions": { "VariableDeclarator": true } }],
+    "no-multi-spaces": [
+      "error",
+      { "exceptions": { "VariableDeclarator": true } }
+    ],
     "no-multi-str": "error",
     "no-new": "error",
     "no-new-func": "error",
@@ -67,8 +67,7 @@
       "error",
       {
         "selector": "SequenceExpression",
-        "message":
-          "The comma operator is confusing and a common mistake. Don’t use it!"
+        "message": "The comma operator is confusing and a common mistake. Don’t use it!"
       }
     ],
     "no-return-assign": ["error", "always"],
@@ -79,6 +78,7 @@
     "no-template-curly-in-string": "warn",
     "no-throw-literal": "error",
     "no-unexpected-multiline": "error",
+    "no-unused-vars": ["warn", { "varsIgnorePattern": "^_" }],
     "no-use-before-define": "error",
     "no-useless-call": "error",
     "no-useless-computed-key": "error",
@@ -106,7 +106,10 @@
     "require-await": "error",
     "require-unicode-regexp": "warn",
     "rest-spread-spacing": ["error", "never"],
-    "sort-imports": ["warn", { "allowSeparatedGroups": true, "ignoreCase": true }],
+    "sort-imports": [
+      "warn",
+      { "allowSeparatedGroups": true, "ignoreCase": true }
+    ],
     "symbol-description": "error"
   }
 }
