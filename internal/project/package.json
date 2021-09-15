@@ -6,6 +6,7 @@
   "scripts": {
     "build": "",
     "precommit": "",
+    "check-updates": "",
     "test": ""
   },
   "repository": {
