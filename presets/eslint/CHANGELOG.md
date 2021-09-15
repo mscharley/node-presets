@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 15 Sep 2021 11:43:56 GMT and should not be manually modified.
+This log was last generated on Wed, 15 Sep 2021 12:36:38 GMT and should not be manually modified.
+
+## 1.6.2
+Wed, 15 Sep 2021 12:36:38 GMT
+
+### Patches
+
+- fix(eslint): configure no-unused-vars
 
 ## 1.6.1
 Wed, 15 Sep 2021 11:43:56 GMT

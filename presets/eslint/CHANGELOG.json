@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.6.2",
+      "tag": "@mscharley/eslint-config_v1.6.2",
+      "date": "Wed, 15 Sep 2021 12:36:38 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix(eslint): configure no-unused-vars"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.6.1",
       "tag": "@mscharley/eslint-config_v1.6.1",
       "date": "Wed, 15 Sep 2021 11:43:56 GMT",
