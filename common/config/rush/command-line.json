@@ -115,7 +115,7 @@
       "commandKind": "bulk",
       "name": "precommit",
       "summary": "Run all precommit tests.",
-      "enableParallelism": true,
+      "enableParallelism": false,
       "ignoreDependencyOrder": true
     },
     {
