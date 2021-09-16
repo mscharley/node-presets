@@ -78,7 +78,13 @@
     "no-template-curly-in-string": "warn",
     "no-throw-literal": "error",
     "no-unexpected-multiline": "error",
-    "no-unused-vars": ["warn", { "varsIgnorePattern": "^_" }],
+    "no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
     "no-use-before-define": "error",
     "no-useless-call": "error",
     "no-useless-computed-key": "error",
