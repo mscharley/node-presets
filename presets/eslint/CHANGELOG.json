@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.6.3",
+      "tag": "@mscharley/eslint-config_v1.6.3",
+      "date": "Thu, 16 Sep 2021 18:50:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: also ignore unused args"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.6.2",
       "tag": "@mscharley/eslint-config_v1.6.2",
       "date": "Wed, 15 Sep 2021 12:36:38 GMT",

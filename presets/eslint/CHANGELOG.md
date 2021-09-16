@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 15 Sep 2021 12:36:38 GMT and should not be manually modified.
+This log was last generated on Thu, 16 Sep 2021 18:50:52 GMT and should not be manually modified.
+
+## 1.6.3
+Thu, 16 Sep 2021 18:50:52 GMT
+
+### Patches
+
+- fix: also ignore unused args
 
 ## 1.6.2
 Wed, 15 Sep 2021 12:36:38 GMT
