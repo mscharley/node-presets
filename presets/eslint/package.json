@@ -7,7 +7,7 @@
     "build": "",
     "precommit": "lint-staged",
     "check-updates": "npm-check-updates 2>&1",
-    "test": "eslint -c index.js *.js"
+    "test": "eslint -c index.js --max-warnings 0 *.js examples"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint -c index.js --fix",
