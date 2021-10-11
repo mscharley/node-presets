@@ -1,2 +1,4 @@
 .rush
 *.log
+tsconfig.json
+examples/
