@@ -19,4 +19,4 @@ for usage details for them.
 
 [gh-contrib]: https://github.com/mscharley/node-presets/graphs/contributors
 [gh-issues]: https://github.com/mscharley/node-presets/issues
-[license]: https://github.com/mscharley/node-presets/blob/master/LICENSE
+[license]: https://github.com/mscharley/node-presets/blob/main/LICENSE
