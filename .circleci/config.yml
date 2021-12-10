@@ -31,7 +31,7 @@ jobs:
   deploy:
     executor:
       name: node/default
-      tag: '14'
+      tag: '16'
     working_directory: /mnt/ramdisk
     steps:
       - checkout
@@ -62,8 +62,11 @@ workflows:
       - build-and-test:
           name: fermium
           node-version: '14'
+      - build-and-test:
+          name: gallium
+          node-version: '16'
       - deploy:
           context: semantic-release
-          requires: ['erbium', 'fermium']
+          requires: ['erbium', 'fermium', 'gallium']
           filters:
             branches: { only: master }
