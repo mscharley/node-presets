@@ -69,4 +69,4 @@ workflows:
           context: semantic-release
           requires: ['erbium', 'fermium', 'gallium']
           filters:
-            branches: { only: master }
+            branches: { only: main }
