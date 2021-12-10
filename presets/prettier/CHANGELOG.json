@@ -2,6 +2,18 @@
   "name": "@mscharley/prettier-config",
   "entries": [
     {
+      "version": "1.2.0",
+      "tag": "@mscharley/prettier-config_v1.2.0",
+      "date": "Fri, 10 Dec 2021 13:24:54 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: bump to typescript-eslint 5.x"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.2",
       "tag": "@mscharley/prettier-config_v1.1.2",
       "date": "Wed, 15 Sep 2021 11:43:56 GMT",

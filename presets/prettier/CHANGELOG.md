@@ -1,6 +1,13 @@
 # Change Log - @mscharley/prettier-config
 
-This log was last generated on Wed, 15 Sep 2021 11:43:56 GMT and should not be manually modified.
+This log was last generated on Fri, 10 Dec 2021 13:24:54 GMT and should not be manually modified.
+
+## 1.2.0
+Fri, 10 Dec 2021 13:24:54 GMT
+
+### Minor changes
+
+- feat: bump to typescript-eslint 5.x
 
 ## 1.1.2
 Wed, 15 Sep 2021 11:43:56 GMT

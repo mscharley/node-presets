@@ -2,6 +2,31 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.7.0",
+      "tag": "@mscharley/eslint-config_v1.7.0",
+      "date": "Fri, 10 Dec 2021 13:24:54 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: add tests for styling and reasonings why"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "feat: bump to typescript-eslint 5.x"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.6.3",
       "tag": "@mscharley/eslint-config_v1.6.3",
       "date": "Thu, 16 Sep 2021 18:50:52 GMT",

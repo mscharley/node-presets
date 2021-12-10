@@ -1,6 +1,17 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Thu, 16 Sep 2021 18:50:52 GMT and should not be manually modified.
+This log was last generated on Fri, 10 Dec 2021 13:24:54 GMT and should not be manually modified.
+
+## 1.7.0
+Fri, 10 Dec 2021 13:24:54 GMT
+
+### Minor changes
+
+- feat: bump to typescript-eslint 5.x
+
+### Patches
+
+- fix: add tests for styling and reasonings why
 
 ## 1.6.3
 Thu, 16 Sep 2021 18:50:52 GMT
