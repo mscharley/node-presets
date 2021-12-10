@@ -1,6 +1,6 @@
 {
   "name": "@mscharley/eslint-config",
-  "version": "1.6.3",
+  "version": "1.7.0",
   "description": "ESLint presets that I use a lot",
   "main": "index.json",
   "scripts": {
