@@ -1,6 +1,13 @@
 # Change Log - @mscharley/prettier-config
 
-This log was last generated on Fri, 10 Dec 2021 13:24:54 GMT and should not be manually modified.
+This log was last generated on Tue, 25 Jan 2022 14:41:46 GMT and should not be manually modified.
+
+## 1.2.1
+Tue, 25 Jan 2022 14:41:46 GMT
+
+### Patches
+
+- fix: allow 120 character lines
 
 ## 1.2.0
 Fri, 10 Dec 2021 13:24:54 GMT
