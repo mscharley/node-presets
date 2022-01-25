@@ -1,6 +1,6 @@
 // Documentation for this file: https://prettier.io/docs/en/options.html
 module.exports = {
-  printWidth: 80,
+  printWidth: 120,
   semi: true,
   endOfLine: 'lf',
   // Use single quotes instead of double quotes
