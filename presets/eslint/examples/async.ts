@@ -20,8 +20,7 @@ export const testNeedsAsync = (): Promise<string> => {
  * If this could be made ok, it could be a very minor performance increase.
  */
 // eslint-disable-next-line @typescript-eslint/promise-function-async
-export const testSimpleAsync = (): Promise<string> =>
-  new Promise((resolve) => resolve('Hello world!'));
+export const testSimpleAsync = (): Promise<string> => new Promise((resolve) => resolve('Hello world!'));
 
 /**
  * Ensure that returning an async value inside a try statement uses `return await`.
