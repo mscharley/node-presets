@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "./prettier", "./testing"],
+  "extends": ["eslint:recommended", "./prettier"],
   "parser": "espree",
   "env": {
     "commonjs": true,

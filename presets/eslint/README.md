@@ -25,8 +25,7 @@ $ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
 module.exports = {
   root: true,
   extends: [
-    '@mscharley', // For TS projects or mixed TS/JS projects.
-    // '@mscharley/eslint-config/eslint', // For JS-only projects.
+    '@mscharley', // Baseline rules for any TS or JS project.
     '@mscharley/eslint-config/node', // For projects running on NodeJS.
     // '@mscharley/eslint-config/react', // For projects running React.
   ],
@@ -50,7 +49,7 @@ module.exports = {
   overrides: [
     {
       // This must be a valid path inside your TypeScript source folders.
-      files: ["src/**/*.js", "src/**/*.jsx"],
+      files: ["src/**/*.{js,jsx}"],
       rules: { "deprecation/deprecation": "warn" },
     },
   ],
