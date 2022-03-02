@@ -2,6 +2,26 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.8.0",
+      "tag": "@mscharley/eslint-config_v1.8.0",
+      "date": "Wed, 02 Mar 2022 00:45:39 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "feat: add support for linting react apps"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.7.1",
       "tag": "@mscharley/eslint-config_v1.7.1",
       "date": "Tue, 25 Jan 2022 14:41:46 GMT",

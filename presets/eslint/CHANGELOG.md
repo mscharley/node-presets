@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Tue, 25 Jan 2022 14:41:46 GMT and should not be manually modified.
+This log was last generated on Wed, 02 Mar 2022 00:45:39 GMT and should not be manually modified.
+
+## 1.8.0
+Wed, 02 Mar 2022 00:45:39 GMT
+
+### Minor changes
+
+- feat: add support for linting react apps
 
 ## 1.7.1
 Tue, 25 Jan 2022 14:41:46 GMT
