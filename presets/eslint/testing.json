@@ -1,0 +1,19 @@
+{
+  "overrides": [
+    {
+      // Viteshot support.
+      "files": ["**/*.screenshot.{jsx,tsx}"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
+    },
+    {
+      // Jest support.
+      "files": ["**/__tests__/**/*.{ts,js,tsx,jsx}"],
+      "rules": {
+        "@typescript-eslint/consistent-type-assertions": "off"
+      }
+    }
+  ]
+}

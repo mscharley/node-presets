@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@mscharley/eslint-config",
-      "comment": "chore: package updates",
-      "type": "patch"
+      "comment": "feat: add support for linting react apps",
+      "type": "minor"
     }
   ],
   "packageName": "@mscharley/eslint-config",
