@@ -2,6 +2,18 @@
   "name": "@mscharley/bootstrap-node",
   "entries": [
     {
+      "version": "0.0.16",
+      "tag": "@mscharley/bootstrap-node_v0.0.16",
+      "date": "Wed, 02 Mar 2022 01:05:01 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/eslint-config\" to `1.8.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.15",
       "tag": "@mscharley/bootstrap-node_v0.0.15",
       "date": "Wed, 02 Mar 2022 00:53:04 GMT",
