@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "1.8.3",
+      "tag": "@mscharley/eslint-config_v1.8.3",
+      "date": "Wed, 02 Mar 2022 01:14:53 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: buggy testing rules"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.8.2",
       "tag": "@mscharley/eslint-config_v1.8.2",
       "date": "Wed, 02 Mar 2022 01:05:01 GMT",
