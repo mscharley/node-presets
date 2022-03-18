@@ -2,6 +2,26 @@
   "name": "@mscharley/bootstrap-node",
   "entries": [
     {
+      "version": "0.0.18",
+      "tag": "@mscharley/bootstrap-node_v0.0.18",
+      "date": "Fri, 18 Mar 2022 07:40:16 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: bump dependency updates"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/eslint-config\" to `1.8.4`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.3`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.17",
       "tag": "@mscharley/bootstrap-node_v0.0.17",
       "date": "Wed, 02 Mar 2022 01:14:53 GMT",

@@ -1,6 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Wed, 02 Mar 2022 01:14:53 GMT and should not be manually modified.
+This log was last generated on Fri, 18 Mar 2022 07:40:16 GMT and should not be manually modified.
+
+## 1.8.4
+Fri, 18 Mar 2022 07:40:16 GMT
+
+### Patches
+
+- fix: bump dependency updates
 
 ## 1.8.3
 Wed, 02 Mar 2022 01:14:53 GMT
