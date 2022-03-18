@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/bootstrap-node",
+      "comment": "fix: bump dependency updates",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/bootstrap-node",
+  "email": "matt@scharley.me"
+}

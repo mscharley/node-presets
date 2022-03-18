@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "fix: bump dependency updates",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config",
+  "email": "matt@scharley.me"
+}
