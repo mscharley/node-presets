@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@1.1.6
+  node: circleci/node@5.0.2
 jobs:
   build-and-test:
     parameters:
@@ -12,26 +12,22 @@ jobs:
     working_directory: /mnt/ramdisk
     steps:
       - checkout
-      - node/with-cache:
-          cache-key: common/config/rush/pnpm-lock.yaml
-          dir: ~/project/common/temp
-          steps:
-            - run:
-                name: rush change -v
-                command: node common/scripts/install-run-rush.js change -v
-            - run:
-                name: rush install
-                command: node common/scripts/install-run-rush.js install
-            - run:
-                name: rush rebuild --verbose
-                command: node common/scripts/install-run-rush.js rebuild --verbose
-            - run:
-                name: rush test
-                command: node common/scripts/install-run-rush.js test
+      - run:
+          name: rush change -v
+          command: node common/scripts/install-run-rush.js change -v
+      - run:
+          name: rush install
+          command: node common/scripts/install-run-rush.js install
+      - run:
+          name: rush rebuild --verbose
+          command: node common/scripts/install-run-rush.js rebuild --verbose
+      - run:
+          name: rush test
+          command: node common/scripts/install-run-rush.js test
   deploy:
     executor:
       name: node/default
-      tag: '16'
+      tag: '16.17'
     working_directory: /mnt/ramdisk
     steps:
       - checkout
@@ -57,16 +53,13 @@ workflows:
   build-and-test:
     jobs:
       - build-and-test:
-          name: erbium
-          node-version: '12'
-      - build-and-test:
           name: fermium
-          node-version: '14'
+          node-version: '14.20'
       - build-and-test:
           name: gallium
-          node-version: '16'
+          node-version: '16.17'
       - deploy:
           context: semantic-release
-          requires: ['erbium', 'fermium', 'gallium']
+          requires: ['fermium', 'gallium']
           filters:
             branches: { only: main }
