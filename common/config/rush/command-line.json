@@ -152,14 +152,16 @@
       "commandKind": "global",
       "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
       "autoinstallerName": "rush-prettier",
-      "shellCommand": "pretty-quick --staged"
+      "shellCommand": "pretty-quick --staged",
+      "safeForSimultaneousRushProcesses": true
     },
     {
       "name": "commitlint",
       "commandKind": "global",
       "summary": "Used by the commit-msg Git hook. This command invokes commitlint to check commit messages.",
       "autoinstallerName": "rush-commitlint",
-      "shellCommand": "commitlint"
+      "shellCommand": "commitlint",
+      "safeForSimultaneousRushProcesses": true
     }
   ],
 
