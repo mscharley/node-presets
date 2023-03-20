@@ -2,6 +2,26 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "2.0.1",
+      "tag": "@mscharley/eslint-config_v2.0.1",
+      "date": "Mon, 20 Mar 2023 15:00:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Bump to typescript 5.x"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.8.5",
       "tag": "@mscharley/eslint-config_v1.8.5",
       "date": "Wed, 14 Sep 2022 21:08:45 GMT",

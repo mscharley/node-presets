@@ -2,6 +2,18 @@
   "name": "@mscharley/prettier-config",
   "entries": [
     {
+      "version": "2.0.1",
+      "tag": "@mscharley/prettier-config_v2.0.1",
+      "date": "Mon, 20 Mar 2023 15:00:56 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Bump to typescript 5.x"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.2.4",
       "tag": "@mscharley/prettier-config_v1.2.4",
       "date": "Wed, 14 Sep 2022 21:08:45 GMT",

@@ -1,6 +1,13 @@
 # Change Log - @mscharley/bootstrap-node
 
-This log was last generated on Wed, 14 Sep 2022 21:08:45 GMT and should not be manually modified.
+This log was last generated on Mon, 20 Mar 2023 15:00:56 GMT and should not be manually modified.
+
+## 1.0.0
+Mon, 20 Mar 2023 15:00:56 GMT
+
+### Breaking changes
+
+- Bump to typescript 5.x
 
 ## 0.0.19
 Wed, 14 Sep 2022 21:08:45 GMT

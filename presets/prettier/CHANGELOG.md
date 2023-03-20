@@ -1,6 +1,13 @@
 # Change Log - @mscharley/prettier-config
 
-This log was last generated on Wed, 14 Sep 2022 21:08:45 GMT and should not be manually modified.
+This log was last generated on Mon, 20 Mar 2023 15:00:56 GMT and should not be manually modified.
+
+## 2.0.1
+Mon, 20 Mar 2023 15:00:56 GMT
+
+### Patches
+
+- Bump to typescript 5.x
 
 ## 1.2.4
 Wed, 14 Sep 2022 21:08:45 GMT
