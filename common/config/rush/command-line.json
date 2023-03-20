@@ -116,7 +116,8 @@
       "name": "precommit",
       "summary": "Run all precommit tests.",
       "enableParallelism": false,
-      "ignoreDependencyOrder": true
+      "ignoreDependencyOrder": true,
+      "safeForSimultaneousRushProcesses": true
     },
     {
       "commandKind": "bulk",
