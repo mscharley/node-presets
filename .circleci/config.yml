@@ -27,7 +27,7 @@ jobs:
   deploy:
     executor:
       name: node/default
-      tag: '16.17'
+      tag: '18.15'
     working_directory: /mnt/ramdisk
     steps:
       - checkout
