@@ -27,7 +27,7 @@ jobs:
   deploy:
     executor:
       name: node/default
-      tag: '16.17'
+      tag: '18.15'
     working_directory: /mnt/ramdisk
     steps:
       - checkout
@@ -54,12 +54,15 @@ workflows:
     jobs:
       - build-and-test:
           name: fermium
-          node-version: '14.20'
+          node-version: '14.21'
       - build-and-test:
           name: gallium
-          node-version: '16.17'
+          node-version: '16.18'
+      - build-and-test:
+          name: hydrogen
+          node-version: '18.15'
       - deploy:
           context: semantic-release
-          requires: ['fermium', 'gallium']
+          requires: ['fermium', 'gallium', 'hydrogen']
           filters:
             branches: { only: main }

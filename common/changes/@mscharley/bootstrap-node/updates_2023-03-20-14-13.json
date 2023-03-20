@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/bootstrap-node",
+      "comment": "Bump to typescript 5.x",
+      "type": "major"
+    }
+  ],
+  "packageName": "@mscharley/bootstrap-node",
+  "email": "matt@scharley.me"
+}

@@ -91,6 +91,6 @@
      * inappropriately.  The minor/patch version parts will be bumped independently according
      * to the types of changes made to each project, according to the "rush change" command.
      */
-    "lockedMajor": 1
+    "lockedMajor": 2
   }
 ]
