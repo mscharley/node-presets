@@ -11,8 +11,6 @@
     "import/no-cycle": ["error", { "ignoreExternal": true }],
     "import/no-duplicates": "off",
     "import/no-useless-path-segments": ["warn"],
-    "node/no-missing-import": "off",
-    "node/no-missing-require": "off",
     "array-callback-return": "error",
     "arrow-spacing": "error",
     "block-scoped-var": "warn",

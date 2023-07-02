@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Fix ordering issues",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config"
+}

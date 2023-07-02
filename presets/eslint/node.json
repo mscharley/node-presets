@@ -1,14 +1,14 @@
 {
-  "extends": [
-    "plugin:node/recommended"
-  ],
+  "extends": ["plugin:node/recommended"],
   "settings": {
     "node": {
-        "tryExtensions": [".js", ".jsx", ".json", ".node", ".d.ts", ".ts", ".tsx"]
+      "tryExtensions": [".js", ".jsx", ".json", ".node", ".d.ts", ".ts", ".tsx"]
     }
   },
   "rules": {
     "node/no-sync": "warn",
+    "node/no-missing-import": "off",
+    "node/no-missing-require": "off",
     "node/prefer-promises/dns": "warn",
     "node/prefer-promises/fs": "warn"
   },
