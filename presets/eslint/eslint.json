@@ -114,8 +114,10 @@
     "sort-imports": ["warn", { "allowSeparatedGroups": true, "ignoreCase": true }],
     "symbol-description": "error"
   },
-  "import/resolver": {
-    "typescript": true,
-    "node": true
+  "settings": {
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
   }
 }
