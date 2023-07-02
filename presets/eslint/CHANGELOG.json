@@ -2,6 +2,18 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "2.0.4",
+      "tag": "@mscharley/eslint-config_v2.0.4",
+      "date": "Sun, 02 Jul 2023 02:48:38 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix ordering issues"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.3",
       "tag": "@mscharley/eslint-config_v2.0.3",
       "date": "Sun, 02 Jul 2023 02:43:53 GMT",
