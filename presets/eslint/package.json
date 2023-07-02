@@ -2,7 +2,6 @@
   "name": "@mscharley/eslint-config",
   "version": "2.0.2",
   "description": "ESLint presets that I use a lot",
-  "main": "index.json",
   "scripts": {
     "build": "",
     "precommit": "lint-staged",

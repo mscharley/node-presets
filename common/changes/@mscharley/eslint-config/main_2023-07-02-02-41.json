@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Remove bad field value in package.json",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config"
+}
