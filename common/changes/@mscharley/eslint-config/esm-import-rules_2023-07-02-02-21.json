@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/eslint-config",
+      "comment": "Better support for esm projects",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/eslint-config"
+}

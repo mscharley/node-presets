@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "./prettier"],
+  "extends": ["eslint:recommended", "./prettier", "plugin:import/recommended", "plugin:import/typescript"],
   "parser": "espree",
   "env": {
     "commonjs": true,
@@ -7,6 +7,12 @@
     "es2017": true
   },
   "rules": {
+    "import/first": ["warn"],
+    "import/no-cycle": ["error", { "ignoreExternal": true }],
+    "import/no-duplicates": "off",
+    "import/no-useless-path-segments": ["warn"],
+    "node/no-missing-import": "off",
+    "node/no-missing-require": "off",
     "array-callback-return": "error",
     "arrow-spacing": "error",
     "block-scoped-var": "warn",
@@ -107,5 +113,9 @@
     "rest-spread-spacing": ["error", "never"],
     "sort-imports": ["warn", { "allowSeparatedGroups": true, "ignoreCase": true }],
     "symbol-description": "error"
+  },
+  "import/resolver": {
+    "typescript": true,
+    "node": true
   }
 }

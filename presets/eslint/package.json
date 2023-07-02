@@ -31,13 +31,16 @@
     "url": "https://github.com/mscharley/node-presets/issues"
   },
   "homepage": "https://github.com/mscharley/node-presets#readme",
+  "dependencies": {},
   "peerDependencies": {
     "@mscharley/prettier-config": "workspace:*",
     "@typescript-eslint/parser": "^5.55.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-deprecation": "^1.4.0-next.1",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
