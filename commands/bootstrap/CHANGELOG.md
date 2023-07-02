@@ -1,6 +1,11 @@
 # Change Log - @mscharley/bootstrap-node
 
-This log was last generated on Mon, 20 Mar 2023 15:00:56 GMT and should not be manually modified.
+This log was last generated on Sun, 02 Jul 2023 02:35:52 GMT and should not be manually modified.
+
+## 1.0.1
+Sun, 02 Jul 2023 02:35:52 GMT
+
+_Version update only_
 
 ## 1.0.0
 Mon, 20 Mar 2023 15:00:56 GMT

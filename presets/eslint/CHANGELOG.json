@@ -2,6 +2,26 @@
   "name": "@mscharley/eslint-config",
   "entries": [
     {
+      "version": "2.0.2",
+      "tag": "@mscharley/eslint-config_v2.0.2",
+      "date": "Sun, 02 Jul 2023 02:35:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Better support for esm projects"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
+          },
+          {
+            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.1",
       "tag": "@mscharley/eslint-config_v2.0.1",
       "date": "Mon, 20 Mar 2023 15:00:56 GMT",
