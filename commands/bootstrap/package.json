@@ -1,6 +1,6 @@
 {
   "name": "@mscharley/bootstrap-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap an opinionated node project quickly.",
   "bin": {
     "bootstrap": "dist/bin/bootstrap.js"
