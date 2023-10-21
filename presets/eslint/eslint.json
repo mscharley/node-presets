@@ -9,7 +9,7 @@
   "rules": {
     "import/first": ["warn"],
     "import/no-cycle": ["error", { "ignoreExternal": true }],
-    "import/no-duplicates": "off",
+    "import/no-duplicates": "error",
     "import/no-useless-path-segments": ["warn"],
     "array-callback-return": "error",
     "arrow-spacing": "error",
@@ -33,7 +33,7 @@
     "no-await-in-loop": "error",
     "no-buffer-constructor": "error",
     "no-console": "warn",
-    "no-duplicate-imports": "error",
+    "no-duplicate-imports": "off",
     "no-eval": "error",
     "no-extend-native": "error",
     "no-extra-bind": "error",
