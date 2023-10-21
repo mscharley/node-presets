@@ -31,7 +31,7 @@
 		"@mscharley/prettier-config": "2.0.3",
 		"@typescript-eslint/parser": "^5.55.0",
 		"@typescript-eslint/eslint-plugin": "^5.55.0",
-		"eslint": "^8.51.0",
+		"eslint": "^8.52.0",
 		"eslint-config-prettier": "^8.10.0",
 		"eslint-import-resolver-typescript": "^3.6.1",
 		"eslint-plugin-deprecation": "^1.4.1",
