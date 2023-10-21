@@ -1,37 +1,35 @@
 {
-  "name": "@mscharley/prettier-config",
-  "version": "2.0.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "",
-    "precommit": "prettier -w *.js",
-    "check-updates": "npm-check-updates 2>&1",
-    "test": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mscharley/node-presets.git"
-  },
-  "keywords": [
-    "prettier",
-    "prettier-presets"
-  ],
-  "author": "Matthew Scharley <matt@scharley.me>",
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/sponsors/mscharley"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mscharley/node-presets/issues"
-  },
-  "homepage": "https://github.com/mscharley/node-presets#readme",
-  "peerDependencies": {
-    "prettier": "^2.8.5"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.8",
-    "npm-check-updates": "~16.10.13"
-  }
+	"name": "@mscharley/prettier-config",
+	"version": "2.0.3",
+	"publishConfig": {
+		"provenance": true
+	},
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "true"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mscharley/node-presets.git"
+	},
+	"keywords": [
+		"prettier",
+		"prettier-presets"
+	],
+	"author": "Matthew Scharley <matt@scharley.me>",
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/mscharley"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mscharley/node-presets/issues"
+	},
+	"homepage": "https://github.com/mscharley/node-presets#readme",
+	"peerDependencies": {
+		"prettier": "^2.8.5"
+	},
+	"devDependencies": {
+	}
 }

@@ -12,42 +12,9 @@ jobs:
     working_directory: /mnt/ramdisk
     steps:
       - checkout
-      - run:
-          name: rush change -v
-          command: node common/scripts/install-run-rush.js change -v
-      - run:
-          name: rush install
-          command: node common/scripts/install-run-rush.js install
-      - run:
-          name: rush rebuild --verbose
-          command: node common/scripts/install-run-rush.js rebuild --verbose
-      - run:
-          name: rush test
-          command: node common/scripts/install-run-rush.js test
-  deploy:
-    executor:
-      name: node/default
-      tag: '18.15'
-    working_directory: /mnt/ramdisk
-    steps:
-      - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - 'e2:f9:0e:ba:2c:c0:7e:ca:5d:18:ef:f2:1c:b5:a4:20'
-      - run:
-          name: Configure git
-          command: |-
-            git config user.email "rush@scharley.me"
-            git config user.name "Rush Releases"
-      - run:
-          name: rush install
-          command: node common/scripts/install-run-rush.js install
-      - run:
-          name: rush version --bump
-          command: node common/scripts/install-run-rush.js version --bump -b main
-      - run:
-          name: rush publish
-          command: node common/scripts/install-run-rush.js publish --publish --include-all -b main --npm-auth-token "$NPM_TOKEN" --set-access-level public
+      - run: npm ci
+      - run: npm run --workspaces --if-present build
+      - run: npm --workspaces test
 
 workflows:
   build-and-test:
@@ -61,8 +28,3 @@ workflows:
       - build-and-test:
           name: hydrogen
           node-version: '18.15'
-      - deploy:
-          context: semantic-release
-          requires: ['fermium', 'gallium', 'hydrogen']
-          filters:
-            branches: { only: main }

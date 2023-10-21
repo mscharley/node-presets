@@ -1,16 +1,12 @@
 {
 	"name": "@mscharley/eslint-config",
 	"version": "2.0.5",
+	"publishConfig": {
+		"provenance": true
+	},
 	"description": "ESLint presets that I use a lot",
 	"scripts": {
-		"build": "",
-		"precommit": "lint-staged",
-		"check-updates": "npm-check-updates 2>&1",
 		"test": "eslint -c index.js --max-warnings 0 *.js examples"
-	},
-	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": "eslint -c index.js --fix",
-		"*.json": "prettier -w"
 	},
 	"repository": {
 		"type": "git",
@@ -32,7 +28,7 @@
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"dependencies": {},
 	"peerDependencies": {
-		"@mscharley/prettier-config": "workspace:*",
+		"@mscharley/prettier-config": "2.0.3",
 		"@typescript-eslint/parser": "^5.55.0",
 		"@typescript-eslint/eslint-plugin": "^5.55.0",
 		"eslint": "^8.36.0",
@@ -48,21 +44,5 @@
 		"typescript": "^5.0.2"
 	},
 	"devDependencies": {
-		"@mscharley/prettier-config": "workspace:*",
-		"@typescript-eslint/parser": "^5.60.1",
-		"@typescript-eslint/eslint-plugin": "^5.60.1",
-		"eslint": "^8.44.0",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-import-resolver-typescript": "^3.5.5",
-		"eslint-plugin-deprecation": "^1.4.1",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"prettier": "^2.8.8",
-		"lint-staged": "~13.2.3",
-		"typescript": "~5.1.6",
-		"npm-check-updates": "~16.10.13"
 	}
 }

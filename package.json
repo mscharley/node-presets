@@ -1,0 +1,36 @@
+{
+	"name": "@mscharley/node-presets",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Metaproject for this repo",
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"workspaces": [
+		"presets/prettier",
+		"presets/eslint",
+		"commands/bootstrap"
+	],
+	"devDependencies": {
+		"@changesets/cli": "^2.26.2",
+		"@commitlint/cli": "^8.3.5",
+		"@commitlint/config-conventional": "^8.3.4",
+		"husky": "^8.0.3",
+		"lint-staged": "~13.2.3",
+		"prettier": "^2.2.1"
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx}": "eslint -c index.js --fix",
+		"*.{json,md,markdown}": "prettier -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mscharley/node-presets.git"
+	},
+	"author": "Matthew Scharley <github@scharley.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mscharley/node-presets/issues"
+	},
+	"homepage": "https://github.com/mscharley/node-presets#readme"
+}
