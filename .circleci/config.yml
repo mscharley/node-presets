@@ -20,9 +20,6 @@ workflows:
   build-and-test:
     jobs:
       - build-and-test:
-          name: fermium
-          node-version: '14.21'
-      - build-and-test:
           name: gallium
           node-version: '16.18'
       - build-and-test:
