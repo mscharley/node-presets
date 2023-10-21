@@ -11,7 +11,7 @@
  */
 // eslint-disable-next-line @typescript-eslint/promise-function-async
 export const testNeedsAsync = (): Promise<string> => {
-  return new Promise((resolve) => resolve('Hello world!'));
+	return new Promise((resolve) => resolve('Hello world!'));
 };
 
 /**
@@ -29,10 +29,10 @@ export const testSimpleAsync = (): Promise<string> => new Promise((resolve) => r
  * *will not* be captured by the try catch surrounding that statement. This is extremely counter intuitive.
  */
 export const testReturnAwait = async (): Promise<string> => {
-  try {
-    // eslint-disable-next-line @typescript-eslint/return-await
-    return new Promise((resolve) => resolve('Hello world!'));
-  } catch (e: unknown) {
-    throw new Error(`Failure: ${(e as { message?: string }).message}`);
-  }
+	try {
+		// eslint-disable-next-line @typescript-eslint/return-await
+		return new Promise((resolve) => resolve('Hello world!'));
+	} catch (e: unknown) {
+		throw new Error(`Failure: ${(e as { message?: string }).message}`);
+	}
 };

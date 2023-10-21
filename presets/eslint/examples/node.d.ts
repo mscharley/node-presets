@@ -1,3 +1,3 @@
 declare const console: {
-  log: (...args: unknown[]) => void;
+	log: (...args: unknown[]) => void;
 };

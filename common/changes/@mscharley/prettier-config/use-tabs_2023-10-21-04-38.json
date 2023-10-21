@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@mscharley/prettier-config",
+      "comment": "fix: use tabs for indentation",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@mscharley/prettier-config"
+}
