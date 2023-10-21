@@ -4,7 +4,9 @@
 	"private": true,
 	"description": "Metaproject for this repo",
 	"scripts": {
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"cs-version": "npm run --workspaces build && changeset version",
+		"cs-release": "changeset publish"
 	},
 	"workspaces": [
 		"presets/prettier",
