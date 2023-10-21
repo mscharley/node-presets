@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['./eslint', './typescript', './testing'],
-  reportUnusedDisableDirectives: true,
+	extends: ['./eslint', './typescript', './testing'],
+	reportUnusedDisableDirectives: true,
 };
