@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# $1 the file with the commit message
-node common/scripts/install-run-rush.js commitlint -e "$1" || exit $?

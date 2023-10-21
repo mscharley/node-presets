@@ -1,6 +1,10 @@
 {
 	"name": "@mscharley/bootstrap-node",
 	"version": "1.0.4",
+	"publishConfig": {
+		"provenance": true
+	},
+	"private": true,
 	"description": "Bootstrap an opinionated node project quickly.",
 	"bin": {
 		"bootstrap": "dist/bin/bootstrap.js"
@@ -9,7 +13,7 @@
 		"build": "tsc",
 		"precommit": "lint-staged",
 		"check-updates": "npm-check-updates 2>&1",
-		"test": "rushx test:jest",
+		"test": "npm run test:jest",
 		"test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
 		"test:jest": "jest 2>&1"
 	},
@@ -40,8 +44,8 @@
 		"@babel/preset-typescript": "~7.22.5",
 		"@typescript-eslint/parser": "^5.60.1",
 		"@typescript-eslint/eslint-plugin": "^5.60.1",
-		"@mscharley/eslint-config": "workspace:*",
-		"@mscharley/prettier-config": "workspace:*",
+		"@mscharley/eslint-config": "2.0.5",
+		"@mscharley/prettier-config": "2.0.3",
 		"@types/jest": "~29.5.2",
 		"@types/node": "~20.3.3",
 		"babel-jest": "~29.5.0",
