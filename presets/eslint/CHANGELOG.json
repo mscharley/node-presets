@@ -1,592 +1,607 @@
 {
-  "name": "@mscharley/eslint-config",
-  "entries": [
-    {
-      "version": "2.0.4",
-      "tag": "@mscharley/eslint-config_v2.0.4",
-      "date": "Sun, 02 Jul 2023 02:48:38 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Fix ordering issues"
-          }
-        ]
-      }
-    },
-    {
-      "version": "2.0.3",
-      "tag": "@mscharley/eslint-config_v2.0.3",
-      "date": "Sun, 02 Jul 2023 02:43:53 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Remove bad field value in package.json"
-          }
-        ]
-      }
-    },
-    {
-      "version": "2.0.2",
-      "tag": "@mscharley/eslint-config_v2.0.2",
-      "date": "Sun, 02 Jul 2023 02:35:52 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Better support for esm projects"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "2.0.1",
-      "tag": "@mscharley/eslint-config_v2.0.1",
-      "date": "Mon, 20 Mar 2023 15:00:56 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Bump to typescript 5.x"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.5",
-      "tag": "@mscharley/eslint-config_v1.8.5",
-      "date": "Wed, 14 Sep 2022 21:08:45 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: updates"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.4`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.4`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.4",
-      "tag": "@mscharley/eslint-config_v1.8.4",
-      "date": "Fri, 18 Mar 2022 07:40:16 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: bump dependency updates"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.3`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.3`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.3",
-      "tag": "@mscharley/eslint-config_v1.8.3",
-      "date": "Wed, 02 Mar 2022 01:14:53 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: buggy testing rules"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.2",
-      "tag": "@mscharley/eslint-config_v1.8.2",
-      "date": "Wed, 02 Mar 2022 01:05:01 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: dependencies"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.1",
-      "tag": "@mscharley/eslint-config_v1.8.1",
-      "date": "Wed, 02 Mar 2022 00:53:04 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: add required package dependencies"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.8.0",
-      "tag": "@mscharley/eslint-config_v1.8.0",
-      "date": "Wed, 02 Mar 2022 00:45:39 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "feat: add support for linting react apps"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.7.1",
-      "tag": "@mscharley/eslint-config_v1.7.1",
-      "date": "Tue, 25 Jan 2022 14:41:46 GMT",
-      "comments": {
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.1`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.1`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.7.0",
-      "tag": "@mscharley/eslint-config_v1.7.0",
-      "date": "Fri, 10 Dec 2021 13:24:54 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: add tests for styling and reasonings why"
-          }
-        ],
-        "minor": [
-          {
-            "comment": "feat: bump to typescript-eslint 5.x"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.6.3",
-      "tag": "@mscharley/eslint-config_v1.6.3",
-      "date": "Thu, 16 Sep 2021 18:50:52 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: also ignore unused args"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.6.2",
-      "tag": "@mscharley/eslint-config_v1.6.2",
-      "date": "Wed, 15 Sep 2021 12:36:38 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix(eslint): configure no-unused-vars"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.6.1",
-      "tag": "@mscharley/eslint-config_v1.6.1",
-      "date": "Wed, 15 Sep 2021 11:43:56 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: dependency updates"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.6.0",
-      "tag": "@mscharley/eslint-config_v1.6.0",
-      "date": "Fri, 03 Sep 2021 15:47:23 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "fix: move dependencies into peerDependencies"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.5.3",
-      "tag": "@mscharley/eslint-config_v1.5.3",
-      "date": "Thu, 22 Jul 2021 08:07:44 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: explicitly disable indent rule to prevent conflicts with prettier"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.5.2",
-      "tag": "@mscharley/eslint-config_v1.5.2",
-      "date": "Thu, 24 Jun 2021 06:27:07 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: add typescript definitions as valid imports"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.5.1",
-      "tag": "@mscharley/eslint-config_v1.5.1",
-      "date": "Sun, 06 Jun 2021 10:12:59 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix(node): cleanup some issues with node/ts compatibility"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.5.0",
-      "tag": "@mscharley/eslint-config_v1.5.0",
-      "date": "Sun, 06 Jun 2021 09:28:52 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "feat(eslint): enable node specific rules"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.4.0",
-      "tag": "@mscharley/eslint-config_v1.4.0",
-      "date": "Thu, 13 May 2021 02:22:48 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "Enabled the @typescript-eslint/unbound-method eslint rule"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.9",
-      "tag": "@mscharley/eslint-config_v1.3.9",
-      "date": "Fri, 19 Mar 2021 01:16:16 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: make sort-imports rule a warning"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.8",
-      "tag": "@mscharley/eslint-config_v1.3.8",
-      "date": "Thu, 11 Mar 2021 10:43:16 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: make explicit-function-return-type a warning"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.7",
-      "tag": "@mscharley/eslint-config_v1.3.7",
-      "date": "Tue, 09 Mar 2021 03:51:43 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: allow for importing just eslint settings"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.6",
-      "tag": "@mscharley/eslint-config_v1.3.6",
-      "date": "Mon, 08 Mar 2021 15:33:00 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: allow linting top-level js config files"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.5",
-      "tag": "@mscharley/eslint-config_v1.3.5",
-      "date": "Mon, 08 Mar 2021 11:43:10 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: allow void in some cases"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.4",
-      "tag": "@mscharley/eslint-config_v1.3.4",
-      "date": "Mon, 08 Mar 2021 11:15:51 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: allow 0 and 1 as magic numbers"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.3",
-      "tag": "@mscharley/eslint-config_v1.3.3",
-      "date": "Mon, 08 Mar 2021 09:01:29 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: add unions to no-type-alias too"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.2",
-      "tag": "@mscharley/eslint-config_v1.3.2",
-      "date": "Sat, 06 Mar 2021 03:48:39 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: remove conflicting rule between eslint and prettier"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.1",
-      "tag": "@mscharley/eslint-config_v1.3.1",
-      "date": "Sat, 06 Mar 2021 03:03:15 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "chore: add funding info"
-          },
-          {
-            "comment": "fix: disable prefer-readonly-parameter-types"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.1.0` to `~1.1.1`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.1.0` to `~1.1.1`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.3.0",
-      "tag": "@mscharley/eslint-config_v1.3.0",
-      "date": "Fri, 05 Mar 2021 09:21:17 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "feat: implement prettier support"
-          }
-        ],
-        "dependency": [
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.0.0` to `~1.1.0`"
-          },
-          {
-            "comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.0.0` to `~1.1.0`"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.9",
-      "tag": "@mscharley/eslint-config_v1.2.9",
-      "date": "Thu, 04 Mar 2021 07:56:18 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "chore: bump eslint dependencies"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.8",
-      "tag": "@mscharley/eslint-config_v1.2.8",
-      "date": "Thu, 04 Mar 2021 07:19:47 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Bump to typescript 4.2"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.7",
-      "tag": "@mscharley/eslint-config_v1.2.7",
-      "date": "Mon, 18 Jan 2021 05:11:39 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "allow sorted imports to be split into blocks"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.6",
-      "tag": "@mscharley/eslint-config_v1.2.6",
-      "date": "Wed, 16 Dec 2020 07:15:14 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix: include deprecation warnings"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.5",
-      "tag": "@mscharley/eslint-config_v1.2.5",
-      "date": "Wed, 16 Dec 2020 04:09:07 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix(eslint): implement quotes rule"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.4",
-      "tag": "@mscharley/eslint-config_v1.2.4",
-      "date": "Thu, 23 Apr 2020 15:40:59 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Add important documentation files to the package"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.3",
-      "tag": "@mscharley/eslint-config_v1.2.3",
-      "date": "Wed, 22 Apr 2020 12:37:11 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Downgraded the eslint check for magic numbers to a warning"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.2",
-      "tag": "@mscharley/eslint-config_v1.2.2",
-      "date": "Wed, 22 Apr 2020 10:46:45 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Fix an overbearing option from no-magic-numbers that forced *all* variables that are numbers to be defined as consts"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.1",
-      "tag": "@mscharley/eslint-config_v1.2.1",
-      "date": "Wed, 22 Apr 2020 10:21:31 GMT",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Better handling of issues caused by JavaScript's ASI engine"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.2.0",
-      "tag": "@mscharley/eslint-config_v1.2.0",
-      "date": "Wed, 22 Apr 2020 10:11:40 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "Fine tuned the eslint side of the settings"
-          }
-        ]
-      }
-    },
-    {
-      "version": "1.1.0",
-      "tag": "@mscharley/eslint-config_v1.1.0",
-      "date": "Wed, 22 Apr 2020 07:35:52 GMT",
-      "comments": {
-        "minor": [
-          {
-            "comment": "Added our initial configuration"
-          }
-        ]
-      }
-    }
-  ]
+	"name": "@mscharley/eslint-config",
+	"entries": [
+		{
+			"version": "2.0.5",
+			"tag": "@mscharley/eslint-config_v2.0.5",
+			"date": "Sat, 21 Oct 2023 04:40:46 GMT",
+			"comments": {
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.3`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.3`"
+					}
+				]
+			}
+		},
+		{
+			"version": "2.0.4",
+			"tag": "@mscharley/eslint-config_v2.0.4",
+			"date": "Sun, 02 Jul 2023 02:48:38 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Fix ordering issues"
+					}
+				]
+			}
+		},
+		{
+			"version": "2.0.3",
+			"tag": "@mscharley/eslint-config_v2.0.3",
+			"date": "Sun, 02 Jul 2023 02:43:53 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Remove bad field value in package.json"
+					}
+				]
+			}
+		},
+		{
+			"version": "2.0.2",
+			"tag": "@mscharley/eslint-config_v2.0.2",
+			"date": "Sun, 02 Jul 2023 02:35:52 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Better support for esm projects"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.2`"
+					}
+				]
+			}
+		},
+		{
+			"version": "2.0.1",
+			"tag": "@mscharley/eslint-config_v2.0.1",
+			"date": "Mon, 20 Mar 2023 15:00:56 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Bump to typescript 5.x"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `2.0.1`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.5",
+			"tag": "@mscharley/eslint-config_v1.8.5",
+			"date": "Wed, 14 Sep 2022 21:08:45 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: updates"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.4`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.4`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.4",
+			"tag": "@mscharley/eslint-config_v1.8.4",
+			"date": "Fri, 18 Mar 2022 07:40:16 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: bump dependency updates"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.3`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.3`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.3",
+			"tag": "@mscharley/eslint-config_v1.8.3",
+			"date": "Wed, 02 Mar 2022 01:14:53 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: buggy testing rules"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.2",
+			"tag": "@mscharley/eslint-config_v1.8.2",
+			"date": "Wed, 02 Mar 2022 01:05:01 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: dependencies"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.1",
+			"tag": "@mscharley/eslint-config_v1.8.1",
+			"date": "Wed, 02 Mar 2022 00:53:04 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: add required package dependencies"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.8.0",
+			"tag": "@mscharley/eslint-config_v1.8.0",
+			"date": "Wed, 02 Mar 2022 00:45:39 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "feat: add support for linting react apps"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.2`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.7.1",
+			"tag": "@mscharley/eslint-config_v1.7.1",
+			"date": "Tue, 25 Jan 2022 14:41:46 GMT",
+			"comments": {
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.1`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.1`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.7.0",
+			"tag": "@mscharley/eslint-config_v1.7.0",
+			"date": "Fri, 10 Dec 2021 13:24:54 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: add tests for styling and reasonings why"
+					}
+				],
+				"minor": [
+					{
+						"comment": "feat: bump to typescript-eslint 5.x"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.2.0`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.6.3",
+			"tag": "@mscharley/eslint-config_v1.6.3",
+			"date": "Thu, 16 Sep 2021 18:50:52 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: also ignore unused args"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.6.2",
+			"tag": "@mscharley/eslint-config_v1.6.2",
+			"date": "Wed, 15 Sep 2021 12:36:38 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix(eslint): configure no-unused-vars"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.6.1",
+			"tag": "@mscharley/eslint-config_v1.6.1",
+			"date": "Wed, 15 Sep 2021 11:43:56 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: dependency updates"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" to `1.1.2`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.6.0",
+			"tag": "@mscharley/eslint-config_v1.6.0",
+			"date": "Fri, 03 Sep 2021 15:47:23 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "fix: move dependencies into peerDependencies"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.5.3",
+			"tag": "@mscharley/eslint-config_v1.5.3",
+			"date": "Thu, 22 Jul 2021 08:07:44 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: explicitly disable indent rule to prevent conflicts with prettier"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.5.2",
+			"tag": "@mscharley/eslint-config_v1.5.2",
+			"date": "Thu, 24 Jun 2021 06:27:07 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: add typescript definitions as valid imports"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.5.1",
+			"tag": "@mscharley/eslint-config_v1.5.1",
+			"date": "Sun, 06 Jun 2021 10:12:59 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix(node): cleanup some issues with node/ts compatibility"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.5.0",
+			"tag": "@mscharley/eslint-config_v1.5.0",
+			"date": "Sun, 06 Jun 2021 09:28:52 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "feat(eslint): enable node specific rules"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.4.0",
+			"tag": "@mscharley/eslint-config_v1.4.0",
+			"date": "Thu, 13 May 2021 02:22:48 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "Enabled the @typescript-eslint/unbound-method eslint rule"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.9",
+			"tag": "@mscharley/eslint-config_v1.3.9",
+			"date": "Fri, 19 Mar 2021 01:16:16 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: make sort-imports rule a warning"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.8",
+			"tag": "@mscharley/eslint-config_v1.3.8",
+			"date": "Thu, 11 Mar 2021 10:43:16 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: make explicit-function-return-type a warning"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.7",
+			"tag": "@mscharley/eslint-config_v1.3.7",
+			"date": "Tue, 09 Mar 2021 03:51:43 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: allow for importing just eslint settings"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.6",
+			"tag": "@mscharley/eslint-config_v1.3.6",
+			"date": "Mon, 08 Mar 2021 15:33:00 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: allow linting top-level js config files"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.5",
+			"tag": "@mscharley/eslint-config_v1.3.5",
+			"date": "Mon, 08 Mar 2021 11:43:10 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: allow void in some cases"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.4",
+			"tag": "@mscharley/eslint-config_v1.3.4",
+			"date": "Mon, 08 Mar 2021 11:15:51 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: allow 0 and 1 as magic numbers"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.3",
+			"tag": "@mscharley/eslint-config_v1.3.3",
+			"date": "Mon, 08 Mar 2021 09:01:29 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: add unions to no-type-alias too"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.2",
+			"tag": "@mscharley/eslint-config_v1.3.2",
+			"date": "Sat, 06 Mar 2021 03:48:39 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: remove conflicting rule between eslint and prettier"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.1",
+			"tag": "@mscharley/eslint-config_v1.3.1",
+			"date": "Sat, 06 Mar 2021 03:03:15 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "chore: add funding info"
+					},
+					{
+						"comment": "fix: disable prefer-readonly-parameter-types"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.1.0` to `~1.1.1`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.1.0` to `~1.1.1`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.3.0",
+			"tag": "@mscharley/eslint-config_v1.3.0",
+			"date": "Fri, 05 Mar 2021 09:21:17 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "feat: implement prettier support"
+					}
+				],
+				"dependency": [
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.0.0` to `~1.1.0`"
+					},
+					{
+						"comment": "Updating dependency \"@mscharley/prettier-config\" from `~1.0.0` to `~1.1.0`"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.9",
+			"tag": "@mscharley/eslint-config_v1.2.9",
+			"date": "Thu, 04 Mar 2021 07:56:18 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "chore: bump eslint dependencies"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.8",
+			"tag": "@mscharley/eslint-config_v1.2.8",
+			"date": "Thu, 04 Mar 2021 07:19:47 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Bump to typescript 4.2"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.7",
+			"tag": "@mscharley/eslint-config_v1.2.7",
+			"date": "Mon, 18 Jan 2021 05:11:39 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "allow sorted imports to be split into blocks"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.6",
+			"tag": "@mscharley/eslint-config_v1.2.6",
+			"date": "Wed, 16 Dec 2020 07:15:14 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix: include deprecation warnings"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.5",
+			"tag": "@mscharley/eslint-config_v1.2.5",
+			"date": "Wed, 16 Dec 2020 04:09:07 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "fix(eslint): implement quotes rule"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.4",
+			"tag": "@mscharley/eslint-config_v1.2.4",
+			"date": "Thu, 23 Apr 2020 15:40:59 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Add important documentation files to the package"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.3",
+			"tag": "@mscharley/eslint-config_v1.2.3",
+			"date": "Wed, 22 Apr 2020 12:37:11 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Downgraded the eslint check for magic numbers to a warning"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.2",
+			"tag": "@mscharley/eslint-config_v1.2.2",
+			"date": "Wed, 22 Apr 2020 10:46:45 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Fix an overbearing option from no-magic-numbers that forced *all* variables that are numbers to be defined as consts"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.1",
+			"tag": "@mscharley/eslint-config_v1.2.1",
+			"date": "Wed, 22 Apr 2020 10:21:31 GMT",
+			"comments": {
+				"patch": [
+					{
+						"comment": "Better handling of issues caused by JavaScript's ASI engine"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.2.0",
+			"tag": "@mscharley/eslint-config_v1.2.0",
+			"date": "Wed, 22 Apr 2020 10:11:40 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "Fine tuned the eslint side of the settings"
+					}
+				]
+			}
+		},
+		{
+			"version": "1.1.0",
+			"tag": "@mscharley/eslint-config_v1.1.0",
+			"date": "Wed, 22 Apr 2020 07:35:52 GMT",
+			"comments": {
+				"minor": [
+					{
+						"comment": "Added our initial configuration"
+					}
+				]
+			}
+		}
+	]
 }

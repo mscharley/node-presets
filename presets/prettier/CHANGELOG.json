@@ -2,6 +2,18 @@
   "name": "@mscharley/prettier-config",
   "entries": [
     {
+      "version": "2.0.3",
+      "tag": "@mscharley/prettier-config_v2.0.3",
+      "date": "Sat, 21 Oct 2023 04:40:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix: use tabs for indentation"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.2",
       "tag": "@mscharley/prettier-config_v2.0.2",
       "date": "Sun, 02 Jul 2023 02:35:52 GMT",

@@ -1,6 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
-This log was last generated on Sun, 02 Jul 2023 02:48:38 GMT and should not be manually modified.
+This log was last generated on Sat, 21 Oct 2023 04:40:46 GMT and should not be manually modified.
+
+## 2.0.5
+Sat, 21 Oct 2023 04:40:46 GMT
+
+_Version update only_
 
 ## 2.0.4
 Sun, 02 Jul 2023 02:48:38 GMT

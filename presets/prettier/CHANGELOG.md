@@ -1,6 +1,13 @@
 # Change Log - @mscharley/prettier-config
 
-This log was last generated on Sun, 02 Jul 2023 02:35:52 GMT and should not be manually modified.
+This log was last generated on Sat, 21 Oct 2023 04:40:46 GMT and should not be manually modified.
+
+## 2.0.3
+Sat, 21 Oct 2023 04:40:46 GMT
+
+### Patches
+
+- fix: use tabs for indentation
 
 ## 2.0.2
 Sun, 02 Jul 2023 02:35:52 GMT
