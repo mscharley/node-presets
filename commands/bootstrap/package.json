@@ -1,6 +1,6 @@
 {
 	"name": "@mscharley/bootstrap-node",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"publishConfig": {
 		"provenance": true
 	},
@@ -36,7 +36,7 @@
 		"@babel/core": "7.23.2",
 		"@babel/preset-env": "7.23.2",
 		"@babel/preset-typescript": "7.23.2",
-		"@mscharley/eslint-config": "3.0.0",
+		"@mscharley/eslint-config": "3.0.1",
 		"@mscharley/prettier-config": "3.0.0",
 		"@types/jest": "29.5.6",
 		"@types/node": "18.18.6",

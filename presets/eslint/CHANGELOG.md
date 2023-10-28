@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.0.1
+
+### Patch Changes
+
+- 5043068: fix(deps): update dependency eslint-plugin-import to ^2.29.0
+- fea35d8: fix(deps): update typescript-eslint monorepo to ^6.9.0
+
 ## 3.0.0
 
 ### Major Changes
