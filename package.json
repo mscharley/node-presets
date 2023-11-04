@@ -5,7 +5,7 @@
 	"description": "Metaproject for this repo",
 	"scripts": {
 		"prepare": "husky install",
-		"cs-version": "npm run --workspaces build && changeset version",
+		"cs-version": "npm run --workspaces build --if-present && changeset version",
 		"cs-release": "changeset publish"
 	},
 	"workspaces": [
