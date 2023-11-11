@@ -38,7 +38,7 @@
 		"@babel/preset-typescript": "7.23.2",
 		"@mscharley/eslint-config": "3.0.1",
 		"@mscharley/prettier-config": "3.0.0",
-		"@types/jest": "29.5.7",
+		"@types/jest": "29.5.8",
 		"@types/node": "20.9.0",
 		"@typescript-eslint/eslint-plugin": "6.9.1",
 		"@typescript-eslint/parser": "6.9.1",
