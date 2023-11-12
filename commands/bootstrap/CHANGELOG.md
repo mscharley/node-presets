@@ -1,5 +1,14 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.7
+
+### Patch Changes
+
+- 685d79b: fix(deps): update dependency @types/node to v20
+- 38bb58f: fix(deps): update typescript-eslint monorepo to ^6.9.1
+- 4b2fe54: fix(deps): update dependency eslint to v8.53.0
+- 0fd90e1: fix(deps): update typescript-eslint monorepo to ^6.10.0
+
 ## 1.0.6
 
 ### Patch Changes
