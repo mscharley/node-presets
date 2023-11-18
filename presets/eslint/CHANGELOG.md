@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.0.3
+
+### Patch Changes
+
+- ed58a50: fix(deps): update dependency prettier to v3.1.0
+- Updated dependencies [ed58a50]
+  - @mscharley/prettier-config@3.0.1
+
 ## 3.0.2
 
 ### Patch Changes

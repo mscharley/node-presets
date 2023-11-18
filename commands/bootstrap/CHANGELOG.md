@@ -1,5 +1,11 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.8
+
+### Patch Changes
+
+- ed58a50: fix(deps): update dependency prettier to v3.1.0
+
 ## 1.0.7
 
 ### Patch Changes
