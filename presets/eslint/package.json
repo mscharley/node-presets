@@ -1,6 +1,6 @@
 {
 	"name": "@mscharley/eslint-config",
-	"version": "3.0.4",
+	"version": "3.0.5",
 	"publishConfig": {
 		"provenance": true
 	},
