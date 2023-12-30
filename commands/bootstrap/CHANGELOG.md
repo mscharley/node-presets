@@ -1,5 +1,19 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.11
+
+### Patch Changes
+
+- 745840d: fix(deps): update dependency typescript to v5.3.3
+- 4a8e208: fix(deps): update dependency prettier to v3.1.1
+- 5c98fda: fix(deps): update typescript-eslint monorepo to ^6.14.0
+- 0d837e9: fix(deps): update dependency eslint to v8.56.0
+- e57dac6: fix(deps): update dependency eslint-plugin-prettier to v5.1.0
+- 652b4dc: fix(deps): update typescript-eslint monorepo to ^6.15.0
+- ab250d8: fix(deps): update dependency eslint-plugin-prettier to v5.1.1
+- aebe30a: fix(deps): update dependency eslint-plugin-prettier to v5.1.2
+- 59504c9: fix(deps): update typescript-eslint monorepo to ^6.16.0
+
 ## 1.0.10
 
 ### Patch Changes

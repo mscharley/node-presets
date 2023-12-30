@@ -1,5 +1,11 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.0.2
+
+### Patch Changes
+
+- 4a8e208: fix(deps): update dependency prettier to v3.1.1
+
 ## 3.0.1
 
 ### Patch Changes
