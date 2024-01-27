@@ -1,6 +1,6 @@
 {
 	"name": "@mscharley/eslint-config",
-	"version": "3.0.6",
+	"version": "3.0.7",
 	"publishConfig": {
 		"provenance": true
 	},
@@ -28,7 +28,7 @@
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"dependencies": {},
 	"peerDependencies": {
-		"@mscharley/prettier-config": "3.0.2",
+		"@mscharley/prettier-config": "3.0.3",
 		"@typescript-eslint/parser": "^6.19.1",
 		"@typescript-eslint/eslint-plugin": "^6.19.1",
 		"eslint": "^8.56.0",
