@@ -39,7 +39,7 @@
 		"@mscharley/eslint-config": "3.0.7",
 		"@mscharley/prettier-config": "3.0.3",
 		"@types/jest": "29.5.12",
-		"@types/node": "20.11.17",
+		"@types/node": "20.11.18",
 		"@typescript-eslint/eslint-plugin": "6.21.0",
 		"@typescript-eslint/parser": "6.21.0",
 		"babel-jest": "29.7.0",
