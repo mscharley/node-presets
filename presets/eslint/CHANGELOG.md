@@ -1,5 +1,16 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.0.8
+
+### Patch Changes
+
+- badd377: fix(deps): update typescript-eslint monorepo to ^6.20.0
+- d977e25: fix(deps): update dependency prettier to v3.2.5
+- 1f2d2f5: fix(deps): update typescript-eslint monorepo to ^6.21.0
+- 23355ab: fix(deps): update typescript-eslint monorepo to v7 (major)
+- Updated dependencies [d977e25]
+  - @mscharley/prettier-config@3.0.4
+
 ## 3.0.7
 
 ### Patch Changes
