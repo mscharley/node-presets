@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.0.9
+
+### Patch Changes
+
+- d5a60cf: fix(deps): update typescript-eslint monorepo to ^7.0.2
+- a2f02d9: fix(deps): update dependency eslint to v8.57.0
+
 ## 3.0.8
 
 ### Patch Changes
