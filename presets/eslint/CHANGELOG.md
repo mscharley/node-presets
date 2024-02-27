@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.0
+
+### Minor Changes
+
+- 004f0af: Add support the Jest plugin in eslint
+
 ## 3.0.9
 
 ### Patch Changes
