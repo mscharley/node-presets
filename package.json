@@ -4,7 +4,7 @@
 	"private": true,
 	"description": "Metaproject for this repo",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"cs-version": "npm run --workspaces build --if-present && changeset version",
 		"cs-release": "changeset publish"
 	},
