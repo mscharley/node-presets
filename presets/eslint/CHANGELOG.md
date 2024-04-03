@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.2
+
+### Patch Changes
+
+- ada7204: fix(deps): update dependency eslint-plugin-n to v16
+- 3f7617a: Don't use prettier for ts/js
+
 ## 3.1.1
 
 ### Patch Changes
