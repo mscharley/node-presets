@@ -1,5 +1,11 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.0.5
+
+### Patch Changes
+
+- aa48c87: Migrate to using the stylistic plugin for all style rules instead of the deprecated eslint rules
+
 ## 3.0.4
 
 ### Patch Changes
