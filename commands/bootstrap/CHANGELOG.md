@@ -1,5 +1,11 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.16
+
+### Patch Changes
+
+- ada7204: fix(deps): update dependency eslint-plugin-n to v16
+
 ## 1.0.15
 
 ### Patch Changes
