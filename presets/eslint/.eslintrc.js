@@ -1,8 +1,8 @@
+/* global __dirname */
 const { resolve } = require('path');
 
 module.exports = {
-	root: true,
-	extends: ['@mscharley', '@mscharley/eslint-config/node'],
+	extends: ['./index'],
 	parserOptions: {
 		project: resolve(__dirname, './tsconfig.json'),
 	},
