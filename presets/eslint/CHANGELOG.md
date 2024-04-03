@@ -1,5 +1,22 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.1
+
+### Patch Changes
+
+- eb2ff9b: fix(deps): update typescript-eslint monorepo to ^7.1.0
+- 65ca38c: fix(deps): update dependency eslint-plugin-react to ^7.34.0
+- 03682c3: fix(deps): update typescript-eslint monorepo to ^7.1.1
+- 45ab99e: fix(deps): update dependency typescript to v5.4.2
+- ab01fe6: fix(deps): update typescript-eslint monorepo to ^7.2.0
+- 11cf009: fix(deps): replace eslint packages
+- 43822af: fix(deps): update typescript-eslint monorepo to ^7.3.1
+- 6e751eb: fix(deps): update dependency typescript to v5.4.3
+- f701198: fix(deps): update typescript-eslint monorepo to ^7.4.0
+- aa48c87: Migrate to using the stylistic plugin for all style rules instead of the deprecated eslint rules
+- Updated dependencies [aa48c87]
+  - @mscharley/prettier-config@3.0.5
+
 ## 3.1.0
 
 ### Minor Changes
