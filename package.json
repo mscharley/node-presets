@@ -20,7 +20,7 @@
 		"prettier": "3.2.5"
 	},
 	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": "eslint -c index.js --fix",
+		"*.{js,jsx,ts,tsx}": "eslint --fix",
 		"*.{json,md,markdown}": "prettier -w"
 	},
 	"repository": {

@@ -6,7 +6,7 @@
 	},
 	"description": "ESLint presets that I use a lot",
 	"scripts": {
-		"test": "eslint -c index.js --max-warnings 0 *.js examples"
+		"test": "eslint --max-warnings 0 ."
 	},
 	"repository": {
 		"type": "git",
@@ -28,6 +28,7 @@
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"peerDependencies": {
 		"@mscharley/prettier-config": "3.0.4",
+		"@stylistic/eslint-plugin": "^1.7.0",
 		"@typescript-eslint/eslint-plugin": "^7.4.0",
 		"@typescript-eslint/parser": "^7.4.0",
 		"eslint": "^8.57.0",
