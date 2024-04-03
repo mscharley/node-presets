@@ -1,22 +1,22 @@
 {
-  "extends": ["plugin:node/recommended"],
+  "extends": ["plugin:n/recommended"],
   "settings": {
     "node": {
       "tryExtensions": [".js", ".jsx", ".json", ".node", ".d.ts", ".ts", ".tsx"]
     }
   },
   "rules": {
-    "node/no-sync": "warn",
-    "node/no-missing-import": "off",
-    "node/no-missing-require": "off",
-    "node/prefer-promises/dns": "warn",
-    "node/prefer-promises/fs": "warn"
+    "n/no-sync": "warn",
+    "n/no-missing-import": "off",
+    "n/no-missing-require": "off",
+    "n/prefer-promises/dns": "warn",
+    "n/prefer-promises/fs": "warn"
   },
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
       "rules": {
-        "node/no-unsupported-features/es-syntax": "off"
+        "n/no-unsupported-features/es-syntax": "off"
       }
     }
   ]
