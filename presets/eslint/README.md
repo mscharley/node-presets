@@ -14,7 +14,7 @@ This is a preset for eslint for use with TypeScript or JavaScript projects.
 ## Installation
 
 ```console
-$ npm install --save-dev @mscharley/eslint-config @mscharley/prettier-config
+$ npm install --save-dev @mscharley/eslint-config
 ```
 
 ## Usage
@@ -31,9 +31,18 @@ module.exports = {
 };
 ```
 
-```jsonc
-// .prettierrc
-"@mscharley/prettier-config"
+### Notes on Prettier
+
+If using Prettier to format files other than TypeScript and JavaScript files then you should ignore all TS/JS files to prevent ESLint and Prettier from fighting with each other.
+
+```ignore
+# .prettierignore
+**/*.cts
+**/*.mts
+**/*.ts
+**/*.cjs
+**/*.mjs
+**/*.js
 ```
 
 ## Extras
