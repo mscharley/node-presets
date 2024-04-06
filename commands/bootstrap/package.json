@@ -44,7 +44,7 @@
 		"bufferutil": "4.0.8",
 		"canvas": "2.11.2",
 		"jest": "29.7.0",
-		"typescript": "5.4.3",
+		"typescript": "5.4.4",
 		"utf-8-validate": "6.0.3"
 	}
 }
