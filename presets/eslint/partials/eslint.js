@@ -52,7 +52,7 @@ module.exports = {
 		'no-octal': 'error',
 		'no-octal-escape': 'error',
 		'no-param-reassign': 'error',
-		'no-process-exit': 'warn',
+		'no-process-exit': 'off',
 		'no-proto': 'error',
 		'no-prototype-builtins': 'warn',
 		'no-restricted-syntax': [
