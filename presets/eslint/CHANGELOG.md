@@ -1,5 +1,19 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.3
+
+### Patch Changes
+
+- 6e298f0: Migrate to `n/no-process-exit` instead of the deprecated `no-process-exit` rule
+- 7d74015: fix(deps): update typescript-eslint monorepo to ^7.5.0
+- 0951542: fix(deps): update dependency typescript to v5.4.4
+- f39ccd3: fix(deps): update typescript-eslint monorepo to ^7.6.0
+- 93bf6c6: fix(deps): update dependency typescript to v5.4.5
+- c5c49af: fix(deps): update dependency @stylistic/eslint-plugin to ^1.7.2
+- 71c43a3: fix(deps): update typescript-eslint monorepo to ^7.7.0
+- 7aef700: fix(deps): update typescript-eslint monorepo to ^7.7.1
+- c21caaa: fix(deps): update dependency eslint-plugin-react-hooks to ^4.6.1
+
 ## 3.1.2
 
 ### Patch Changes
