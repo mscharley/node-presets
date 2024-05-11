@@ -1,5 +1,14 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.4
+
+### Patch Changes
+
+- 57e7303: fix(deps): update dependency eslint-plugin-react-hooks to ^4.6.2
+- f73ca03: fix(deps): update dependency @stylistic/eslint-plugin to ^1.8.0
+- 07d6174: fix(deps): update typescript-eslint monorepo to ^7.8.0
+- 8c22aed: fix(deps): update dependency @stylistic/eslint-plugin to ^1.8.1
+
 ## 3.1.3
 
 ### Patch Changes
