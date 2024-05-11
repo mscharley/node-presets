@@ -27,7 +27,7 @@
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"peerDependencies": {
-		"@stylistic/eslint-plugin": "^1.8.0",
+		"@stylistic/eslint-plugin": "^1.8.1",
 		"@typescript-eslint/eslint-plugin": "^7.8.0",
 		"@typescript-eslint/parser": "^7.8.0",
 		"eslint": "^8.57.0",
