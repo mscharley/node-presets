@@ -45,6 +45,6 @@
 		"canvas": "2.11.2",
 		"jest": "29.7.0",
 		"typescript": "5.4.5",
-		"utf-8-validate": "6.0.3"
+		"utf-8-validate": "6.0.4"
 	}
 }
