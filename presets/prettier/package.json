@@ -28,7 +28,7 @@
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"peerDependencies": {
-		"prettier": "^3.2.5"
+		"prettier": "^3.3.0"
 	},
 	"devDependencies": {}
 }
