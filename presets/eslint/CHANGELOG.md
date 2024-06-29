@@ -1,5 +1,20 @@
 # Change Log - @mscharley/eslint-config
 
+## 3.1.5
+
+### Patch Changes
+
+- 64016d4: fix(deps): update typescript-eslint monorepo to ^7.9.0
+- 08f4b1c: fix(deps): update typescript-eslint monorepo to ^7.10.0
+- e092de8: fix(deps): update dependency eslint-plugin-react to ^7.34.2
+- b718913: fix(deps): update typescript-eslint monorepo to ^7.11.0
+- 7fa333b: fix(deps): update typescript-eslint monorepo to ^7.12.0
+- 04544dc: fix(deps): update typescript-eslint monorepo to ^7.13.0
+- a82107a: fix(deps): update dependency eslint-plugin-react to ^7.34.3
+- 001ead1: fix(deps): update typescript-eslint monorepo to ^7.13.1
+- 82c7dd3: fix(deps): update dependency typescript to v5.5.2
+- 4831062: fix(deps): update typescript-eslint monorepo to ^7.14.1
+
 ## 3.1.4
 
 ### Patch Changes
