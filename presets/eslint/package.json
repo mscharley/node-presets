@@ -28,8 +28,8 @@
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"peerDependencies": {
 		"@stylistic/eslint-plugin": "^1.8.1",
-		"@typescript-eslint/eslint-plugin": "^7.18.0",
-		"@typescript-eslint/parser": "^7.18.0",
+		"@typescript-eslint/eslint-plugin": "^8.3.0",
+		"@typescript-eslint/parser": "^8.3.0",
 		"eslint": "^8.57.0",
 		"eslint-import-resolver-typescript": "^3.6.3",
 		"eslint-plugin-deprecation": "^2.0.0",
