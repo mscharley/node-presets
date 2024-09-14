@@ -1,5 +1,14 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.18
+
+### Patch Changes
+
+- 82c7dd3: fix(deps): update dependency typescript to v5.5.2
+- 9695744: fix(deps): update dependency typescript to v5.5.3
+- 7506cb7: fix(deps): update dependency typescript to v5.5.4
+- d31f77b: fix(deps): update dependency typescript to v5.6.2
+
 ## 1.0.17
 
 ### Patch Changes
