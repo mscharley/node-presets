@@ -1,5 +1,25 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- 1720d57: Migrate ESLint to flat configurations.
+
+  BREAKING CHANGE: it will require migration work to update to this version. The migration to the new flat configuration format is fairly straightforward. The new rulesets are exported as `import('@mscharley/eslint-config').configs`. There is also a `withStyles()` function for enabling style linting for a project which was enabled by default previously. This doesn't currently take any options but may in the future to allow certain style parameters to be tweaked.
+
+  BREAKING CHANGE: Officially drop node 16 support.
+
+### Patch Changes
+
+- 8c70c28: fix(deps): update dependency eslint-plugin-react to ^7.36.0
+- 8f4d995: fix(deps): update dependency eslint-plugin-react to ^7.36.1
+- 31a13e3: fix(deps): update dependency eslint to ^8.57.1
+- 99b0098: fix(deps): update dependency eslint-plugin-react to ^7.37.0
+- 1f13a80: fix(deps): update dependency eslint-plugin-react to ^7.37.1
+- abf5881: fix(deps): update dependency eslint-plugin-import to ^2.31.0
+- 2ed1dfc: fix(deps): update eslint packages
+
 ## 3.1.5
 
 ### Patch Changes
