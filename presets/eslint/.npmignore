@@ -1,4 +1,5 @@
 .rush
 *.log
 tsconfig.json
+eslint.config.js
 examples/

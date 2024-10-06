@@ -1,3 +1,4 @@
+/* global module */
 module.exports = {
-  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+	testPathIgnorePatterns: ['/node_modules/', '/dist/'],
 };
