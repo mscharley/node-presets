@@ -1,9 +1,9 @@
+import typescript, { disableTypeCheckedRules } from './typescript.js';
 import eslint from './eslint.js';
 import node from './node.js';
 import react from './react.js';
 import stylistic from '@stylistic/eslint-plugin';
 import testing from './testing.js';
-import typescript from './typescript.js';
 
 export const configs = {
 	recommended: [
@@ -37,4 +37,6 @@ export const withStyles = () => [
 	},
 ];
 
-export default { configs, withStyles };
+export { disableTypeCheckedRules };
+
+export default { configs, disableTypeCheckedRules, withStyles };

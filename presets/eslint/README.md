@@ -45,6 +45,14 @@ If using Prettier to format files other than TypeScript and JavaScript files the
 **/*.js
 ```
 
+### Usage in JavaScript projects
+
+```
+Parsing error: [...]/configFile.js was not found by the project service. Consider either including it in the tsconfig.json or including it in allowDefaultProject
+```
+
+If you get messages like this, you can disable type-checked rules using the `disableTypeCheckedRules()` helper function exported by this module. This takes a list of file paths and returns a single configuration object. This takes into account all type checked rules enabled by this configuration and is a superset of the helper configuration provided by `typescript-eslint` for a similar purpose.
+
 [gh-contrib]: https://github.com/mscharley/node-presets/graphs/contributors
 [gh-issues]: https://github.com/mscharley/node-presets/issues
 [license]: https://github.com/mscharley/node-presets/blob/main/LICENSE

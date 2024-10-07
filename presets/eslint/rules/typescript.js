@@ -1,5 +1,15 @@
 import { configs as tseslint } from 'typescript-eslint';
 
+export const disableTypeCheckedRules = (...files) => ({
+	files,
+	...tseslint.disableTypeChecked,
+	rules: {
+		...tseslint.disableTypeChecked.rules,
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
+	},
+});
+
 /** @type import('eslint').Config[] */
 export default [
 	...tseslint.recommendedTypeChecked,
@@ -11,9 +21,6 @@ export default [
 		},
 	},
 	{
-		files: [
-			'**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts',
-		],
 		rules: {
 			'@typescript-eslint/no-deprecated': 'warn',
 			'@typescript-eslint/array-type': [
@@ -128,8 +135,13 @@ export default [
 			'@typescript-eslint/no-unused-vars': [
 				'warn',
 				{
+					args: 'all',
 					argsIgnorePattern: '^_',
+					caughtErrors: 'all',
+					caughtErrorsIgnorePattern: '^_',
+					destructuredArrayIgnorePattern: '^_',
 					varsIgnorePattern: '^_',
+					ignoreRestSiblings: true,
 				},
 			],
 			'@typescript-eslint/no-unnecessary-boolean-literal-compare': [
@@ -174,4 +186,5 @@ export default [
 			'@typescript-eslint/switch-exhaustiveness-check': 'error',
 		},
 	},
+	disableTypeCheckedRules('*.config.js'),
 ];
