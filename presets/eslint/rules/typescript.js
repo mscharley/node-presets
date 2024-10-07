@@ -4,14 +4,16 @@ import { configs as tseslint } from 'typescript-eslint';
 export default [
 	...tseslint.recommendedTypeChecked,
 	{
-		files: [
-			'**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts',
-		],
 		languageOptions: {
 			parserOptions: {
 				projectService: true,
 			},
 		},
+	},
+	{
+		files: [
+			'**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts',
+		],
 		rules: {
 			'@typescript-eslint/no-deprecated': 'warn',
 			'@typescript-eslint/array-type': [
