@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.1
+
+### Patch Changes
+
+- d680c72: Fix an issue with detecting typescript projects
+
 ## 4.0.0
 
 ### Major Changes
