@@ -22,6 +22,7 @@ export default [
 		files: jestFiles,
 		rules: {
 			'@typescript-eslint/consistent-type-assertions': 'off',
+			'@typescript-eslint/no-magic-numbers': 'off',
 			'jest/prefer-todo': 'error',
 			'jest/no-conditional-in-test': 'warn',
 			'jest/no-untyped-mock-factory': 'error',
@@ -33,6 +34,12 @@ export default [
 				'error',
 				{ onlyFunctionsWithExpectInLoop: true, onlyFunctionsWithExpectInCallback: true },
 			],
+		},
+	},
+	{
+		files: ['**/__utils__/**/*.ts'],
+		rules: {
+			'jest/no-export': 'off',
 		},
 	},
 ];
