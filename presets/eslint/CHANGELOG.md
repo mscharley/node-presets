@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.3
+
+### Patch Changes
+
+- 7d2169b: Prevent better support for linting JS files
+- 4872523: Apply testing fixes to **mocks** as well as **utils**
+
 ## 4.0.2
 
 ### Patch Changes

@@ -36,7 +36,7 @@
 		"@babel/core": "7.25.7",
 		"@babel/preset-env": "7.25.7",
 		"@babel/preset-typescript": "7.25.7",
-		"@mscharley/eslint-config": "4.0.2",
+		"@mscharley/eslint-config": "4.0.3",
 		"@mscharley/prettier-config": "3.0.6",
 		"@types/jest": "29.5.13",
 		"@types/node": "20.16.10",
