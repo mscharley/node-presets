@@ -37,7 +37,10 @@ export default [
 		},
 	},
 	{
-		files: ['**/__utils__/**/*.ts'],
+		files: [
+			'**/__mocks__/**/*.{ts,js,tsx,jsx}',
+			'**/__utils__/**/*.{ts,js,tsx,jsx}',
+		],
 		rules: {
 			'jest/no-export': 'off',
 		},
