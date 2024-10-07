@@ -1,6 +1,6 @@
 {
 	"name": "@mscharley/eslint-config",
-	"version": "4.0.1",
+	"version": "4.0.2",
 	"type": "module",
 	"module": "./rules/index.js",
 	"exports": {
