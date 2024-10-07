@@ -20,15 +20,15 @@ $ npm install --save-dev @mscharley/eslint-config
 ## Usage
 
 ```js
-// .eslintrc.js
-module.exports = {
-  root: true,
-  extends: [
-    '@mscharley', // Baseline rules for any TS or JS project.
-    '@mscharley/eslint-config/node', // For projects running on NodeJS.
-    // '@mscharley/eslint-config/react', // For projects running React.
-  ],
-};
+// eslint.config.js
+import { configs, withStyles } from "@mscharley/eslint-config";
+
+export const [
+    ...configs.recommended,
+    ...configs.node, // For projects running on NodeJS
+    // ...configs.react, // For projects running React
+    ...withStyles(), // Include formatting rules
+];
 ```
 
 ### Notes on Prettier
@@ -43,25 +43,6 @@ If using Prettier to format files other than TypeScript and JavaScript files the
 **/*.cjs
 **/*.mjs
 **/*.js
-```
-
-## Extras
-
-### Deprecation warnings for JavaScript files
-
-As a general rule we can't enable the `deprecation/deprecation` rule for JavaScript files because this rule requires TypeScript type information to work. If you have a mixed TypeScript/JavaScript project then you can enable it for the JavaScript files inside your TypeScript project using the following override:
-
-```js
-// .eslintrc.js
-module.exports = {
-  overrides: [
-    {
-      // This must be a valid path inside your TypeScript source folders.
-      files: ["src/**/*.{js,jsx}"],
-      rules: { "deprecation/deprecation": "warn" },
-    },
-  ],
-};
 ```
 
 [gh-contrib]: https://github.com/mscharley/node-presets/graphs/contributors
