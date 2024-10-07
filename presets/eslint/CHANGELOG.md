@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.2
+
+### Patch Changes
+
+- ab92718: Cleanup some of the testing rules
+- 7d6a205: Fix readme for flat configurations
+
 ## 4.0.1
 
 ### Patch Changes
