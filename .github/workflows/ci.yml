@@ -18,4 +18,3 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     with:
       node-version: ${{ matrix.node-version }}
-      use-workspaces: true

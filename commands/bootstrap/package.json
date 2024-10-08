@@ -11,8 +11,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"test": "npm run test:jest",
-		"test:lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+		"test:lint": "eslint",
 		"test:jest": "jest 2>&1"
 	},
 	"repository": {
@@ -36,8 +35,8 @@
 		"@babel/core": "7.25.7",
 		"@babel/preset-env": "7.25.7",
 		"@babel/preset-typescript": "7.25.7",
-		"@mscharley/eslint-config": "4.0.3",
-		"@mscharley/prettier-config": "3.0.6",
+		"@mscharley/eslint-config": "workspace:*",
+		"@mscharley/prettier-config": "workspace:*",
 		"@types/jest": "29.5.13",
 		"@types/node": "20.16.10",
 		"babel-jest": "29.7.0",

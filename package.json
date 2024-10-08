@@ -5,20 +5,14 @@
 	"description": "Metaproject for this repo",
 	"type": "module",
 	"scripts": {
-		"prepare": "husky",
-		"cs-version": "npm run --workspaces build --if-present && changeset version",
-		"cs-release": "changeset publish"
+		"cs-version": "turbo build && changeset version",
+		"cs-release": "pnpm publish -r"
 	},
-	"workspaces": [
-		"presets/prettier",
-		"presets/eslint",
-		"commands/bootstrap"
-	],
 	"devDependencies": {
 		"@changesets/cli": "2.27.9",
-		"husky": "9.1.6",
 		"lint-staged": "15.2.10",
-		"prettier": "3.3.3"
+		"prettier": "3.3.3",
+		"turbo": "^2.1.3"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": "eslint --fix",
@@ -34,5 +28,5 @@
 		"url": "https://github.com/mscharley/node-presets/issues"
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
-	"packageManager": "npm@10.9.0+sha512.65a9c38a8172948f617a53619762cd77e12b9950fe1f9239debcb8d62c652f2081824b986fee7c0af6c0a7df615becebe4bf56e17ec27214a87aa29d9e038b4b"
+	"packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4"
 }
