@@ -1,5 +1,11 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.0.7
+
+### Patch Changes
+
+- 85334ba: Test deploy process
+
 ## 3.0.6
 
 ### Patch Changes
