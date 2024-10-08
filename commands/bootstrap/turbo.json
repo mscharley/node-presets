@@ -1,0 +1,15 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"extends": ["//"],
+	"tasks": {
+		"test": {
+			"dependsOn": ["test:jest", "test:lint"]
+		},
+		"test:jest": {
+			"dependsOn": ["^test"]
+		},
+		"test:lint": {
+			"dependsOn": ["^test"]
+		}
+	}
+}

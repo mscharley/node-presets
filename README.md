@@ -1,12 +1,5 @@
 # node-presets
 
-**Source:** [https://github.com/mscharley/node-presets](https://github.com/mscharley/node-presets)  
-**Author:** Matthew Scharley  
-**Contributors:** [See contributors on GitHub][gh-contrib]  
-**Bugs/Support:** [Github Issues][gh-issues]  
-**License:** [MIT license][license]  
-**Status:** Active
-
 ## Synopsis
 
 This repository is a listing of all my presets for dealing with various node packages.
