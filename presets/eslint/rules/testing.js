@@ -23,17 +23,18 @@ export default [
 		rules: {
 			'@typescript-eslint/consistent-type-assertions': 'off',
 			'@typescript-eslint/no-magic-numbers': 'off',
-			'jest/prefer-todo': 'error',
+			'jest/expect-expect': ['warn', { assertFunctionNames: ['expect', 'verify'] }],
 			'jest/no-conditional-in-test': 'warn',
 			'jest/no-untyped-mock-factory': 'error',
 			'jest/prefer-called-with': 'error',
 			'jest/prefer-comparison-matcher': 'warn',
 			'jest/prefer-equality-matcher': 'warn',
-			'jest/prefer-lowercase-title': 'error',
 			'jest/prefer-expect-assertions': [
 				'error',
 				{ onlyFunctionsWithExpectInLoop: true, onlyFunctionsWithExpectInCallback: true },
 			],
+			'jest/prefer-lowercase-title': 'error',
+			'jest/prefer-todo': 'error',
 		},
 	},
 	{
