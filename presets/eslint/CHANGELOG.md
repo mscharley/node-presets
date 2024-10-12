@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.4
+
+### Patch Changes
+
+- 93ffd4d: fix(deps): update dependency typescript to v5.6.3
+- 1a77c06: fix(deps): update dependency typescript-eslint to ^8.8.1
+
 ## 4.0.3
 
 ### Patch Changes
