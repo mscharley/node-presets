@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.5
+
+### Patch Changes
+
+- 1855b9f: Allow for verifications from testdouble
+
 ## 4.0.4
 
 ### Patch Changes
