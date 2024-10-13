@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.6
+
+### Patch Changes
+
+- 8bbdd14: Added a helper to maintain the MPL-2.0 header notices
+- 34655d9: fix(deps): update eslint packages
+
 ## 4.0.5
 
 ### Patch Changes
