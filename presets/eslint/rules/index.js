@@ -1,5 +1,6 @@
 import typescript, { disableTypeCheckedRules } from './typescript.js';
 import eslint from './eslint.js';
+import mpl2 from './mpl2.js';
 import node from './node.js';
 import react from './react.js';
 import stylistic from '@stylistic/eslint-plugin';
@@ -14,6 +15,9 @@ export const configs = {
 	],
 	node,
 	react,
+	license: {
+		'MPL-2.0': mpl2,
+	},
 };
 
 export const withStyles = () => [

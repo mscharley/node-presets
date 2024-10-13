@@ -23,10 +23,11 @@ $ npm install --save-dev @mscharley/eslint-config
 // eslint.config.js
 import { configs, withStyles } from "@mscharley/eslint-config";
 
-export const [
+export default [
     ...configs.recommended,
     ...configs.node, // For projects running on NodeJS
     // ...configs.react, // For projects running React
+    // ...configs.license["MPL-2.0"](), // Some licenses require notices in each source file, and some of these are predefined for convenience
     ...withStyles(), // Include formatting rules
 ];
 ```
