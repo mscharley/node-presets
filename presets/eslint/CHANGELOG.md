@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.0.7
+
+### Patch Changes
+
+- 5f5c204: Use a release version of the react-hooks plugin
+
 ## 4.0.6
 
 ### Patch Changes
