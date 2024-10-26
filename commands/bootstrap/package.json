@@ -32,9 +32,9 @@
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"devDependencies": {
-		"@babel/core": "7.25.8",
-		"@babel/preset-env": "7.25.8",
-		"@babel/preset-typescript": "7.25.7",
+		"@babel/core": "7.25.9",
+		"@babel/preset-env": "7.25.9",
+		"@babel/preset-typescript": "7.25.9",
 		"@mscharley/eslint-config": "workspace:*",
 		"@mscharley/prettier-config": "workspace:*",
 		"@types/jest": "29.5.13",
