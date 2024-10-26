@@ -39,8 +39,8 @@ importers:
         specifier: workspace:*
         version: link:../../presets/prettier
       '@types/jest':
-        specifier: 29.5.13
-        version: 29.5.13
+        specifier: 29.5.14
+        version: 29.5.14
       '@types/node':
         specifier: 20.16.14
         version: 20.16.14
@@ -110,10 +110,6 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
-
-  '@babel/code-frame@7.25.7':
-    resolution: {integrity: sha512-0xZJFNE5XMpENsgfHYTw8FbX4kv53mFLn2i3XPoq69LyhYSCBJtitaHx9QnsVTrsogI4Z3+HtEfZ2/GFPOtf5g==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/code-frame@7.26.0':
     resolution: {integrity: sha512-INCKxTtbXtcNbUZ3YXutwMpEleqttcswhAdee7dhuoVrD2cnuc3PqtERBtxkX5nziX9vnBL8WXmSGwv8CuPV6g==}
@@ -246,10 +242,6 @@ packages:
 
   '@babel/helpers@7.26.0':
     resolution: {integrity: sha512-tbhNuIxNcVb21pInl3ZSjksLCvgdZy9KwJ8brv993QtIVKJBBkYXz4q4ZbAv31GdnC+R90np23L5FbEBlthAEw==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/highlight@7.25.7':
-    resolution: {integrity: sha512-iYyACpW3iW8Fw+ZybQK+drQre+ns/tKpXbNESfrhNnPLIklLbXr7MYJ6gPEd0iETGLOK+SxMjVvKb/ffmk+FEw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/parser@7.25.8':
@@ -1030,8 +1022,8 @@ packages:
   '@types/istanbul-reports@3.0.4':
     resolution: {integrity: sha512-pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==}
 
-  '@types/jest@29.5.13':
-    resolution: {integrity: sha512-wd+MVEZCHt23V0/L642O5APvspWply/rGY5BcW4SUETo2UzPU3Z26qr8jC2qxpimI2jjx9h7+2cj2FwIr01bXg==}
+  '@types/jest@29.5.14':
+    resolution: {integrity: sha512-ZN+4sdnLUbo8EVvVc2ao0GFW6oVrQRPn4K2lglySj7APvSrgzxHiNNK99us4WDMi57xxA2yggblIAMNhXOotLQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -1170,10 +1162,6 @@ packages:
   ansi-regex@6.1.0:
     resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
     engines: {node: '>=12'}
-
-  ansi-styles@3.2.1:
-    resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
-    engines: {node: '>=4'}
 
   ansi-styles@4.3.0:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
@@ -1328,10 +1316,6 @@ packages:
   caniuse-lite@1.0.30001667:
     resolution: {integrity: sha512-7LTwJjcRkzKFmtqGsibMeuXmvFDfZq/nzIjnmgCGzKKRVzjD72selLDK1oPF/Oxzmt4fNcPvTDvGqSDG4tCALw==}
 
-  chalk@2.4.2:
-    resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
-    engines: {node: '>=4'}
-
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -1373,15 +1357,9 @@ packages:
   collect-v8-coverage@1.0.2:
     resolution: {integrity: sha512-lHl4d5/ONEbLlJvaJNtsF/Lz+WvB07u2ycqTYbdrq7UypDXailES4valYb2eWiJFxZlVmpGekfqoxQhzyFdT4Q==}
 
-  color-convert@1.9.3:
-    resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
-
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
-
-  color-name@1.1.3:
-    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
 
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
@@ -1548,10 +1526,6 @@ packages:
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
-
-  escape-string-regexp@1.0.5:
-    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
-    engines: {node: '>=0.8.0'}
 
   escape-string-regexp@2.0.0:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
@@ -1881,10 +1855,6 @@ packages:
 
   has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
-
-  has-flag@3.0.0:
-    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
-    engines: {node: '>=4'}
 
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -2862,10 +2832,6 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  supports-color@5.5.0:
-    resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
-    engines: {node: '>=4'}
-
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
@@ -3116,11 +3082,6 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@babel/code-frame@7.25.7':
-    dependencies:
-      '@babel/highlight': 7.25.7
-      picocolors: 1.1.0
-
   '@babel/code-frame@7.26.0':
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
@@ -3310,13 +3271,6 @@ snapshots:
     dependencies:
       '@babel/template': 7.25.9
       '@babel/types': 7.26.0
-
-  '@babel/highlight@7.25.7':
-    dependencies:
-      '@babel/helper-validator-identifier': 7.25.7
-      chalk: 2.4.2
-      js-tokens: 4.0.0
-      picocolors: 1.1.0
 
   '@babel/parser@7.25.8':
     dependencies:
@@ -3902,7 +3856,7 @@ snapshots:
 
   '@babel/template@7.25.7':
     dependencies:
-      '@babel/code-frame': 7.25.7
+      '@babel/code-frame': 7.26.0
       '@babel/parser': 7.25.8
       '@babel/types': 7.25.8
 
@@ -4414,7 +4368,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
 
-  '@types/jest@29.5.13':
+  '@types/jest@29.5.14':
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
@@ -4582,10 +4536,6 @@ snapshots:
   ansi-regex@5.0.1: {}
 
   ansi-regex@6.1.0: {}
-
-  ansi-styles@3.2.1:
-    dependencies:
-      color-convert: 1.9.3
 
   ansi-styles@4.3.0:
     dependencies:
@@ -4808,12 +4758,6 @@ snapshots:
 
   caniuse-lite@1.0.30001667: {}
 
-  chalk@2.4.2:
-    dependencies:
-      ansi-styles: 3.2.1
-      escape-string-regexp: 1.0.5
-      supports-color: 5.5.0
-
   chalk@4.1.2:
     dependencies:
       ansi-styles: 4.3.0
@@ -4848,15 +4792,9 @@ snapshots:
 
   collect-v8-coverage@1.0.2: {}
 
-  color-convert@1.9.3:
-    dependencies:
-      color-name: 1.1.3
-
   color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
-
-  color-name@1.1.3: {}
 
   color-name@1.1.4: {}
 
@@ -5074,8 +5012,6 @@ snapshots:
       is-symbol: 1.0.4
 
   escalade@3.2.0: {}
-
-  escape-string-regexp@1.0.5: {}
 
   escape-string-regexp@2.0.0: {}
 
@@ -5487,8 +5423,6 @@ snapshots:
 
   has-bigints@1.0.2: {}
 
-  has-flag@3.0.0: {}
-
   has-flag@4.0.0: {}
 
   has-property-descriptors@1.0.2:
@@ -5856,7 +5790,7 @@ snapshots:
 
   jest-message-util@29.7.0:
     dependencies:
-      '@babel/code-frame': 7.25.7
+      '@babel/code-frame': 7.26.0
       '@jest/types': 29.6.3
       '@types/stack-utils': 2.0.3
       chalk: 4.1.2
@@ -6295,7 +6229,7 @@ snapshots:
 
   parse-json@5.2.0:
     dependencies:
-      '@babel/code-frame': 7.25.7
+      '@babel/code-frame': 7.26.0
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
@@ -6620,10 +6554,6 @@ snapshots:
   strip-final-newline@3.0.0: {}
 
   strip-json-comments@3.1.1: {}
-
-  supports-color@5.5.0:
-    dependencies:
-      has-flag: 3.0.0
 
   supports-color@7.2.0:
     dependencies:
