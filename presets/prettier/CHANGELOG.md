@@ -1,5 +1,11 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.1.0
+
+### Minor Changes
+
+- d72ec38: Don't use peer-dependencies for everything which causes issues for some package managers
+
 ## 3.0.7
 
 ### Patch Changes
