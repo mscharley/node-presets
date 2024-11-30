@@ -1,6 +1,6 @@
 {
 	"name": "@mscharley/bootstrap-node",
-	"version": "1.0.19",
+	"version": "1.0.20",
 	"publishConfig": {
 		"provenance": true
 	},
