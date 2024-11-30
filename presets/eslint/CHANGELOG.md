@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.1.1
+
+### Patch Changes
+
+- cadcbc2: fix(deps): update dependency typescript to v5.7.2
+
 ## 4.1.0
 
 ### Minor Changes
