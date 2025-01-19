@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.1.2
+
+### Patch Changes
+
+- fae8bcc: fix(deps): update dependency typescript to v5.7.3
+
 ## 4.1.1
 
 ### Patch Changes

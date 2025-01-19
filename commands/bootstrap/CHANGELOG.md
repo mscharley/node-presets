@@ -1,5 +1,11 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.21
+
+### Patch Changes
+
+- fae8bcc: fix(deps): update dependency typescript to v5.7.3
+
 ## 1.0.20
 
 ### Patch Changes
