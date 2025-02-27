@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.0
+
+### Minor Changes
+
+- 2857fa2: fix(deps): update dependency @stylistic/eslint-plugin to v4
+
 ## 4.1.2
 
 ### Patch Changes

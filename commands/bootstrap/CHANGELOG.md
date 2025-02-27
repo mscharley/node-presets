@@ -1,5 +1,11 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.22
+
+### Patch Changes
+
+- 166372b: fix(deps): update dependency @types/node to v22
+
 ## 1.0.21
 
 ### Patch Changes
