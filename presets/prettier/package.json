@@ -28,6 +28,6 @@
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"dependencies": {
-		"prettier": "^3.3.3"
+		"prettier": "^3.5.2"
 	}
 }
