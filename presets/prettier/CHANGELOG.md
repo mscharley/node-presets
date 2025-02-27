@@ -1,5 +1,11 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.1.1
+
+### Patch Changes
+
+- 1f916a8: Bump prettier to v3.5
+
 ## 3.1.0
 
 ### Minor Changes
