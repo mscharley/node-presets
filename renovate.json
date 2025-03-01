@@ -24,13 +24,23 @@
 			}
 		},
 		{
-			"matchPackageNames": ["@microsoft/api-documenter", "@microsoft/api-extractor"],
+			"matchPackageNames": [
+				"@microsoft/api-documenter",
+				"@microsoft/api-extractor"
+			],
 			"groupName": "api-extractor",
 			"additionalBranchPrefix": ""
 		},
 		{
-			"matchPackageNames": ["@mscharley/eslint-config", "@mscharley/prettier-config", "eslint"],
-			"matchPackagePrefixes": ["eslint-plugin-", "eslint-config-", "@stylistic/", "@typescript-eslint/"],
+			"matchPackageNames": [
+				"@mscharley/eslint-config",
+				"@mscharley/prettier-config",
+				"eslint",
+				"eslint-plugin-{/,}**",
+				"eslint-config-{/,}**",
+				"@stylistic/{/,}**",
+				"@typescript-eslint/{/,}**"
+			],
 			"groupName": "eslint packages",
 			"additionalBranchPrefix": ""
 		},
