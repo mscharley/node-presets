@@ -1,7 +1,18 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["schedule:weekends", ":automergeMinor", ":semanticCommits", ":rebaseStalePrs", ":label(dependencies)"],
+	"extends": [
+		"config:best-practices",
+		":pinOnlyDevDependencies",
+		"schedule:weekends",
+		":noUnscheduledUpdates",
+		":automergeMinor",
+		":semanticCommits",
+		":rebaseStalePrs",
+		":label(dependencies)",
+		"npm:unpublishSafe"
+	],
 	"automergeStrategy": "fast-forward",
+	"rangeStrategy": "bump",
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
 	"packageRules": [
 		{
@@ -19,17 +30,8 @@
 			"additionalBranchPrefix": ""
 		},
 		{
-			"matchPackageNames": [
-				"@mscharley/eslint-config",
-				"@mscharley/prettier-config",
-				"eslint",
-				"typescript-eslint",
-				"eslint-plugin-*",
-				"eslint-config-*",
-				"@eslint/*",
-				"@stylistic/*",
-				"@typescript-eslint/*"
-			],
+			"matchPackageNames": ["@mscharley/eslint-config", "@mscharley/prettier-config", "eslint"],
+			"matchPackagePrefixes": ["eslint-plugin-", "eslint-config-", "@stylistic/", "@typescript-eslint/"],
 			"groupName": "eslint packages",
 			"additionalBranchPrefix": ""
 		},
