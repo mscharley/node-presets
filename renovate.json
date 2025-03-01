@@ -1,10 +1,4 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>mscharley/renovate-config"],
-	"packageRules": [
-		{
-			"matchDepTypes": ["peerDependencies"],
-			"semanticCommitType": "fix"
-		}
-	]
+	"extends": ["github>mscharley/renovate-config"]
 }
