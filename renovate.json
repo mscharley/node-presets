@@ -8,8 +8,7 @@
 		":automergeMinor",
 		":semanticCommits",
 		":rebaseStalePrs",
-		":label(dependencies)",
-		"npm:unpublishSafe"
+		":label(dependencies)"
 	],
 	"automergeStrategy": "fast-forward",
 	"rangeStrategy": "bump",
