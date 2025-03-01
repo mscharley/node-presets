@@ -10,7 +10,6 @@
 		":label(dependencies)"
 	],
 	"automergeStrategy": "fast-forward",
-	"rangeStrategy": "bump",
 	"gitIgnoredAuthors": ["github+renovate@scharley.me"],
 	"packageRules": [
 		{
