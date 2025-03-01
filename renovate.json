@@ -1,5 +1,7 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["github>mscharley/renovate-config"],
+	"rangeStrategy": "bump",
 	"packageRules": [
 		{
 			"matchDepTypes": ["peerDependencies"],
