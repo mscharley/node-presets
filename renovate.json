@@ -4,7 +4,6 @@
 		"config:best-practices",
 		":pinOnlyDevDependencies",
 		"schedule:weekends",
-		":noUnscheduledUpdates",
 		":automergeMinor",
 		":semanticCommits",
 		":rebaseStalePrs",
@@ -24,10 +23,7 @@
 			}
 		},
 		{
-			"matchPackageNames": [
-				"@microsoft/api-documenter",
-				"@microsoft/api-extractor"
-			],
+			"matchPackageNames": ["@microsoft/api-documenter", "@microsoft/api-extractor"],
 			"groupName": "api-extractor",
 			"additionalBranchPrefix": ""
 		},
