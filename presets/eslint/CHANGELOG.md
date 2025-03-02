@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.1
+
+### Patch Changes
+
+- 8e3d994: fix(deps): update eslint packages
+- 840d03a: fix(deps): update dependency typescript to ^5.8.2
+- ac4037d: fix(deps): update dependency eslint-plugin-react-hooks to ^5.2.0
+
 ## 4.2.0
 
 ### Minor Changes
