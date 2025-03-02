@@ -42,7 +42,7 @@
 		"babel-jest": "29.7.0",
 		"bufferutil": "4.0.9",
 		"jest": "29.7.0",
-		"typescript": "5.8.2",
+		"typescript": "5.7.3",
 		"utf-8-validate": "6.0.5"
 	}
 }
