@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.2
+
+### Patch Changes
+
+- bb29f22: Don't restrict typescript versions more that the eslint plugins already do
+
 ## 4.2.1
 
 ### Patch Changes
