@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.3
+
+### Patch Changes
+
+- cd41ba8: fix(deps): update dependency eslint-plugin-n to ^17.16.1
+- fba7477: fix(deps): update eslint packages
+- e6cc24a: fix(deps): update eslint packages to ^9.22.0
+
 ## 4.2.2
 
 ### Patch Changes
