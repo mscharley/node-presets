@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.6
+
+### Patch Changes
+
+- 07861f7: fix(deps): update dependency eslint-import-resolver-typescript to ^4.2.1
+- 8cb29f7: fix(deps): update eslint packages
+
 ## 4.2.5
 
 ### Patch Changes
