@@ -38,13 +38,13 @@
 		"@stylistic/eslint-plugin": "^4.2.0",
 		"@types/eslint": "^9.6.1",
 		"eslint": "^9.22.0",
-		"eslint-import-resolver-typescript": "^4.2.1",
+		"eslint-import-resolver-typescript": "^4.2.2",
 		"eslint-plugin-import": "^2.31.0",
 		"eslint-plugin-jest": "^28.11.0",
 		"eslint-plugin-n": "^17.16.2",
 		"eslint-plugin-notice": "^1.0.0",
 		"eslint-plugin-react": "^7.37.4",
 		"eslint-plugin-react-hooks": "^5.2.0",
-		"typescript-eslint": "^8.26.1"
+		"typescript-eslint": "^8.27.0"
 	}
 }
