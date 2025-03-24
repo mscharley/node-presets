@@ -27,7 +27,8 @@
 		"url": "https://github.com/mscharley/node-presets/issues"
 	},
 	"homepage": "https://github.com/mscharley/node-presets#readme",
-	"dependencies": {
-		"prettier": "^3.5.3"
+	"peerDependencies": {
+		"prettier": "^3.5.3",
+		"prettier-plugin-toml": "^2.0.2"
 	}
 }
