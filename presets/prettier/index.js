@@ -14,4 +14,5 @@ module.exports = {
 	// target there appropriately.
 	trailingComma: 'all',
 	arrowParens: 'always',
+	plugins: ['prettier-plugin-toml'],
 };
