@@ -1,5 +1,14 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.7
+
+### Patch Changes
+
+- cf02c98: fix(deps): update eslint packages
+- d343632: fix(deps): update dependency eslint-import-resolver-typescript to ^4.2.5
+- 28ff259: fix(deps): update eslint packages
+- b3114d3: fix(deps): update dependency eslint-plugin-react to ^7.37.5
+
 ## 4.2.6
 
 ### Patch Changes
