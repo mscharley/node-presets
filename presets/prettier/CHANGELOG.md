@@ -1,5 +1,12 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.1.4
+
+### Patch Changes
+
+- f1a7fae: fix(deps): update dependency prettier-plugin-toml to ^2.0.3
+- af607a6: fix(deps): update dependency prettier-plugin-toml to ^2.0.4
+
 ## 3.1.2
 
 ### Patch Changes
