@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.8
+
+### Patch Changes
+
+- a90025f: fix(deps): update eslint packages
+
 ## 4.2.7
 
 ### Patch Changes
