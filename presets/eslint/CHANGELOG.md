@@ -1,5 +1,12 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.10
+
+### Patch Changes
+
+- 53cac89: fix(deps): update dependency typescript-eslint to ^8.30.1
+- 996ff0a: fix: use a line length in ts as well
+
 ## 4.2.9
 
 ### Patch Changes
