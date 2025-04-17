@@ -36,6 +36,14 @@ export const withStyles = () => [
 		rules: {
 			'@stylistic/generator-star-spacing': ['error', 'after'],
 			'@stylistic/linebreak-style': ['error', 'unix'],
+			'@stylistic/max-len': ['error', {
+				code: 120,
+				ignoreComments: true,
+				ignoreUrls: true,
+				ignoreStrings: true,
+				ignoreTemplateLiterals: true,
+				ignoreRegExpLiterals: true,
+			}],
 			'@stylistic/quote-props': ['error', 'consistent-as-needed'],
 		},
 	},
