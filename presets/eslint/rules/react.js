@@ -4,7 +4,7 @@ import reactHooks from 'eslint-plugin-react-hooks';
 export default [
 	react.configs.flat.recommended,
 	react.configs.flat['jsx-runtime'],
-	reactHooks.configs.recommended,
+	reactHooks.configs['recommended-latest'],
 	{
 		rules: {
 			'react/prefer-stateless-function': 'error',
