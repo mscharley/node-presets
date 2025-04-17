@@ -5,7 +5,12 @@ export default [
 	{
 		settings: {
 			node: {
-				tryExtensions: ['.js', '.jsx', '.mjs', '.cjs', '.json', '.node', '.d.ts', '.ts', '.tsx', '.mts', '.cts'],
+				tryExtensions: [
+					'.js', '.jsx', '.mjs', '.cjs',
+					'.json',
+					'.node',
+					'.d.ts', '.ts', '.tsx', '.mts', '.cts',
+				],
 			},
 		},
 		rules: {
