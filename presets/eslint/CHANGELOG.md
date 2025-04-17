@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.9
+
+### Patch Changes
+
+- 20ccf46: fix: fix react hooks config
+
 ## 4.2.8
 
 ### Patch Changes
