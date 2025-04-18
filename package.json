@@ -12,7 +12,7 @@
 		"@changesets/cli": "2.28.1",
 		"@mscharley/eslint-config": "workspace:*",
 		"@mscharley/prettier-config": "workspace:*",
-		"lint-staged": "15.5.0",
+		"lint-staged": "15.5.1",
 		"turbo": "2.5.0"
 	},
 	"lint-staged": {
