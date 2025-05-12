@@ -1,5 +1,14 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.11
+
+### Patch Changes
+
+- fc3e966: fix(deps): update eslint packages to ^9.25.0
+- e666f98: fix(deps): update eslint packages
+- 5c4bf8a: fix(deps): update dependency typescript-eslint to ^8.31.1
+- 5e1df91: fix(deps): update eslint packages
+
 ## 4.2.10
 
 ### Patch Changes
