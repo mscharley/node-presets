@@ -1,5 +1,11 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.12
+
+### Patch Changes
+
+- 42cf36d: fix(deps): update eslint packages
+
 ## 4.2.11
 
 ### Patch Changes
