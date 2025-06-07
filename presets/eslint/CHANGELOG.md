@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.13
+
+### Patch Changes
+
+- 202a2ef: fix(deps): update eslint packages
+- a20950f: fix(deps): update eslint packages
+- 3d3a7fa: fix(deps): update dependency @stylistic/eslint-plugin to ^4.4.1
+
 ## 4.2.12
 
 ### Patch Changes
