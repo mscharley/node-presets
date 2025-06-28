@@ -1,5 +1,21 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.15
+
+### Patch Changes
+
+- 216b8c9: fix(deps): update dependency eslint-plugin-jest to v29
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 30de74c: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 0bdd03e: fix(deps): update dependency eslint-import-resolver-typescript to ^4.4.4
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.14
 
 ### Patch Changes
