@@ -1,5 +1,17 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.1.7
+
+### Patch Changes
+
+- 96cf183: fix(deps): update dependency prettier to ^3.6.2
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 98fbf20: fix(deps): update dependency prettier-plugin-toml to ^2.0.6
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 3.1.6
 
 ### Patch Changes
