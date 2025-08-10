@@ -1,5 +1,37 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.16
+
+### Patch Changes
+
+- 9c1e002: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- ab504df: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 01e1e60: fix(deps): update dependency @stylistic/eslint-plugin to ^5.2.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- df85ee8: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 042cd5b: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- da958ed: fix(deps): update dependency typescript-eslint to ^8.39.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 469beee: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.15
 
 ### Patch Changes
