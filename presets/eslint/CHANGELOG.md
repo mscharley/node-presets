@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.17
+
+### Patch Changes
+
+- dc7a698: fix(deps): update dependency typescript-eslint to ^8.39.1
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.16
 
 ### Patch Changes
