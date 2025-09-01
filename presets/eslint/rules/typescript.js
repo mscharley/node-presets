@@ -1,5 +1,6 @@
 import { configs as tseslint } from 'typescript-eslint';
 
+/** @type (files: string[]) => import('eslint').Config */
 export const disableTypeCheckedRules = (...files) => ({
 	files,
 	...tseslint.disableTypeChecked,
@@ -7,6 +8,7 @@ export const disableTypeCheckedRules = (...files) => ({
 		...tseslint.disableTypeChecked.rules,
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
+		'n/no-sync': 'off',
 	},
 });
 
