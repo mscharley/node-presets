@@ -34,6 +34,9 @@
 		"ignoredBuiltDependencies": [
 			"bufferutil",
 			"utf-8-validate"
+		],
+		"onlyBuiltDependencies": [
+			"unrs-resolver"
 		]
 	}
 }
