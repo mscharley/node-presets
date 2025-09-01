@@ -1,5 +1,19 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.17
+
+### Patch Changes
+
+- dc7a698: fix(deps): update dependency typescript-eslint to ^8.39.1
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- baf514e: fix(deps): update dependency typescript-eslint to ^8.40.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- e4eaf56: Add n/no-sync to the list of packages to exclude as a typechecked rule
+
 ## 4.2.16
 
 ### Patch Changes
