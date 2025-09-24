@@ -1,5 +1,25 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.18
+
+### Patch Changes
+
+- 4266998: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 20484ad: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 9d75aa0: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 489bb75: fix(deps): update dependency eslint-plugin-n to ^17.23.1
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.17
 
 ### Patch Changes
