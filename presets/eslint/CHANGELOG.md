@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.19
+
+### Patch Changes
+
+- 89806e3: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.18
 
 ### Patch Changes
