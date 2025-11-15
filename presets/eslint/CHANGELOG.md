@@ -1,5 +1,21 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.20
+
+### Patch Changes
+
+- 0c8319c: fix(deps): update dependency typescript-eslint to ^8.45.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 6b249c9: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 4680ed1: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.19
 
 ### Patch Changes
