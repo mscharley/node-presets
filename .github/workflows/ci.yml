@@ -13,6 +13,7 @@ jobs:
   node:
     uses: mscharley/.github/.github/workflows/node-ci.yml@main
     strategy:
+      fail-fast: false
       matrix:
         node-version: [18.x, 20.x, 22.x, 24.x, current]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
