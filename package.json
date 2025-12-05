@@ -9,7 +9,7 @@
 		"cs-release": "changeset publish"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.29.7",
+		"@changesets/cli": "2.29.8",
 		"@mscharley/eslint-config": "workspace:*",
 		"@mscharley/prettier-config": "workspace:*",
 		"lint-staged": "16.2.7",
