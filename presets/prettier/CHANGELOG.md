@@ -1,5 +1,21 @@
 # Change Log - @mscharley/prettier-config
 
+## 3.1.8
+
+### Patch Changes
+
+- 5f3225a: fix(deps): update dependency prettier to ^3.7.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 821b5b8: fix(deps): update dependency prettier to ^3.7.3
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 38308c5: fix(deps): update dependency prettier to ^3.7.4
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 3.1.7
 
 ### Patch Changes
