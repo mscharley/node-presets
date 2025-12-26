@@ -43,6 +43,6 @@
 		"bufferutil": "4.0.9",
 		"jest": "30.2.0",
 		"typescript": "5.9.3",
-		"utf-8-validate": "6.0.5"
+		"utf-8-validate": "6.0.6"
 	}
 }
