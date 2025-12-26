@@ -51,8 +51,8 @@ importers:
         specifier: 30.2.0
         version: 30.2.0(@babel/core@7.28.5)
       bufferutil:
-        specifier: 4.0.9
-        version: 4.0.9
+        specifier: 4.1.0
+        version: 4.1.0
       jest:
         specifier: 30.2.0
         version: 30.2.0(@types/node@22.19.3)
@@ -1376,8 +1376,8 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  bufferutil@4.0.9:
-    resolution: {integrity: sha512-WDtdLmJvAuNNPzByAYpRo2rF1Mmradw6gvWsQKf63476DDXmomT9zUiGypLcG4ibIM67vhAj8jJRdbmEws2Aqw==}
+  bufferutil@4.1.0:
+    resolution: {integrity: sha512-ZMANVnAixE6AWWnPzlW2KpUrxhm9woycYvPOo67jWHyFowASTEd9s+QN1EIMsSDtwhIxN4sWE1jotpuDUIgyIw==}
     engines: {node: '>=6.14.2'}
 
   call-bind-apply-helpers@1.0.2:
@@ -4929,7 +4929,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  bufferutil@4.0.9:
+  bufferutil@4.1.0:
     dependencies:
       node-gyp-build: 4.8.2
 

@@ -40,7 +40,7 @@
 		"@types/jest": "30.0.0",
 		"@types/node": "22.19.3",
 		"babel-jest": "30.2.0",
-		"bufferutil": "4.0.9",
+		"bufferutil": "4.1.0",
 		"jest": "30.2.0",
 		"typescript": "5.9.3",
 		"utf-8-validate": "6.0.6"
