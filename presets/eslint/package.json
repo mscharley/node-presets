@@ -35,7 +35,7 @@
 	"homepage": "https://github.com/mscharley/node-presets#readme",
 	"dependencies": {
 		"@eslint/js": "^9.39.2",
-		"@stylistic/eslint-plugin": "^5.6.1",
+		"@stylistic/eslint-plugin": "^5.7.0",
 		"@types/eslint": "^9.6.1",
 		"eslint": "^9.39.2",
 		"eslint-import-resolver-typescript": "^4.4.4",
