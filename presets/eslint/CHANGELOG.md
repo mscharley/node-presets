@@ -1,5 +1,37 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.22
+
+### Patch Changes
+
+- 8469043: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- e05fe34: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 32635ee: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- fe72556: fix(deps): update dependency eslint-plugin-jest to ^29.11.3
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 0d5a0fa: fix(deps): update dependency eslint-plugin-jest to ^29.12.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 2993aec: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- 4d200f9: fix(deps): update dependency @stylistic/eslint-plugin to ^5.7.0
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.21
 
 ### Patch Changes
