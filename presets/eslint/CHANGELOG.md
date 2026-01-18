@@ -1,5 +1,13 @@
 # Change Log - @mscharley/eslint-config
 
+## 4.2.23
+
+### Patch Changes
+
+- ddc9583: fix(deps): update eslint packages
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 4.2.22
 
 ### Patch Changes
