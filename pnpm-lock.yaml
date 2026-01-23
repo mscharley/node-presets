@@ -99,7 +99,7 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1(eslint@9.39.2)
       typescript-eslint:
-        specifier: ^8.53.0
+        specifier: ^8.53.1
         version: 8.53.1(eslint@9.39.2)(typescript@5.9.3)
 
   presets/prettier:
