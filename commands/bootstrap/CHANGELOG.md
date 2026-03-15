@@ -1,5 +1,13 @@
 # Change Log - @mscharley/bootstrap-node
 
+## 1.0.23
+
+### Patch Changes
+
+- c47942c: fix(deps): update dependency @types/node to v24
+
+  Signed-off-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## 1.0.22
 
 ### Patch Changes
