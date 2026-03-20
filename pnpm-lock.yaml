@@ -71,9 +71,6 @@ importers:
       '@stylistic/eslint-plugin':
         specifier: ^5.7.1
         version: 5.9.0(eslint@9.39.2)
-      '@types/eslint':
-        specifier: ^9.6.1
-        version: 9.6.1
       eslint:
         specifier: ^9.39.2
         version: 9.39.2
@@ -101,6 +98,10 @@ importers:
       typescript-eslint:
         specifier: ^8.54.0
         version: 8.56.0(eslint@9.39.2)(typescript@5.9.3)
+    devDependencies:
+      '@types/eslint':
+        specifier: 9.6.1
+        version: 9.6.1
 
   presets/prettier:
     dependencies:
