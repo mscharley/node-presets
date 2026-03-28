@@ -11,7 +11,7 @@ on:
 
 jobs:
   node:
-    uses: mscharley/.github/.github/workflows/node-ci.yml@main
+    uses: mscharley/.github/.github/workflows/node-ci.yml@607da10e9d82a5578e0a307efdf9983020e43b87 # main
     strategy:
       fail-fast: false
       matrix:
