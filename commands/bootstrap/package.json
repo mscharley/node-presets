@@ -38,7 +38,7 @@
 		"@mscharley/eslint-config": "workspace:*",
 		"@mscharley/prettier-config": "workspace:*",
 		"@types/jest": "30.0.0",
-		"@types/node": "24.13.0",
+		"@types/node": "24.13.1",
 		"babel-jest": "30.4.1",
 		"bufferutil": "4.1.0",
 		"jest": "30.4.2",
