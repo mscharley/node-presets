@@ -13,7 +13,7 @@
 		"@mscharley/eslint-config": "workspace:*",
 		"@mscharley/prettier-config": "workspace:*",
 		"lint-staged": "17.6.0",
-		"turbo": "2.11.10"
+		"turbo": "2.11.11"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": "eslint --fix",
