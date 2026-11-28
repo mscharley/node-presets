@@ -60,8 +60,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       utf-8-validate:
-        specifier: 6.0.6
-        version: 6.0.6
+        specifier: 6.1.0
+        version: 6.1.0
 
   presets/eslint:
     dependencies:
@@ -3153,8 +3153,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  utf-8-validate@6.0.6:
-    resolution: {integrity: sha512-q3l3P9UtEEiAHcsgsqTgf9PPjctrDWoIXW3NpOHFdRDbLvu4DLIcxHangJ4RLrWkBcKjmcs/6NkerI8T/rE4LA==}
+  utf-8-validate@6.1.0:
+    resolution: {integrity: sha512-+VqK0s7hdUuvL95ExzfqCqvsuA2A+3KzNYibPeeDnGU9L5onk8CY5/H30kCHLpVMzEh6HV9Dv8uw+E+Mz4X/dA==}
     engines: {node: '>=6.14.2'}
 
   v8-to-istanbul@9.3.0:
@@ -7024,7 +7024,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  utf-8-validate@6.0.6:
+  utf-8-validate@6.1.0:
     dependencies:
       node-gyp-build: 4.8.4
 
